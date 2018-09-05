@@ -1,0 +1,1195 @@
+﻿Log file open, 09/04/18 18:46:27
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: RunR
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.296185
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.872s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4233996
+LogInit: Engine Version: 4.20.1-4233996+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, GPU: NVIDIA GeForce GTX 1070
+LogInit: Compiled (64-bit): Jul 26 2018 10:07:30
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: D:/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.09.04-22.46.28:178][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.04-22.46.28:178][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.09.04-22.46.28:210][  0]LogHAL: Display: Platform has ~ 16 GB [17046728704 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.09.04-22.46.28:210][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.09.04-22.46.28:210][  0]LogInit: Going up to parent DeviceProfile []
+[2018.09.04-22.46.28:210][  0]LogInit: Computer: DESKTOP-Q614RLO
+[2018.09.04-22.46.28:210][  0]LogInit: User: maloo
+[2018.09.04-22.46.28:210][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.09.04-22.46.28:210][  0]LogInit: High frequency timer resolution =2.742188 MHz
+[2018.09.04-22.46.28:210][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.09.04-22.46.28:210][  0]LogMemory: Platform Memory Stats for Windows
+[2018.09.04-22.46.28:210][  0]LogMemory: Process Physical Memory: 99.91 MB used, 99.91 MB peak
+[2018.09.04-22.46.28:210][  0]LogMemory: Process Virtual Memory: 91.15 MB used, 91.15 MB peak
+[2018.09.04-22.46.28:210][  0]LogMemory: Physical Memory: 8310.00 MB used,  7947.02 MB free, 16257.03 MB total
+[2018.09.04-22.46.28:210][  0]LogMemory: Virtual Memory: 4644.91 MB used,  7947.02 MB free, 134217728.00 MB total
+[2018.09.04-22.46.28:555][  0]LogInit: Using OS detected language (en-US).
+[2018.09.04-22.46.28:555][  0]LogInit: Using OS detected locale (en-CA).
+[2018.09.04-22.46.28:556][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.09.04-22.46.28:984][  0]LogStreaming: Display: Took  0.429s to InitEngineTextLocalization.
+[2018.09.04-22.46.28:984][  0]LogInit: Setting process to per monitor DPI aware
+[2018.09.04-22.46.29:069][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.09.04-22.46.29:069][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.09.04-22.46.29:436][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.09.04-22.46.29:436][  0]LogD3D11RHI: D3D11 adapters:
+[2018.09.04-22.46.29:515][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.09.04-22.46.29:516][  0]LogD3D11RHI:       8081/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.09.04-22.46.29:541][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2018.09.04-22.46.29:541][  0]LogD3D11RHI:       128/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.09.04-22.46.29:544][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.09.04-22.46.29:544][  0]LogD3D11RHI:       0/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.09.04-22.46.29:544][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.09.04-22.46.29:556][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.09.04-22.46.29:556][  0]LogD3D11RHI:     GPU DeviceId: 0x1be1 (for the marketing name, search the web for "GPU Device Id")
+[2018.09.04-22.46.29:556][  0]LogWindows: EnumDisplayDevices:
+[2018.09.04-22.46.29:556][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.09.04-22.46.29:557][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.09.04-22.46.29:557][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.09.04-22.46.29:557][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.09.04-22.46.29:558][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.09.04-22.46.29:558][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.09.04-22.46.29:559][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.09.04-22.46.29:559][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.09.04-22.46.29:559][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.09.04-22.46.29:559][  0]LogD3D11RHI:   Driver Version: 399.07 (internal:24.21.13.9907, unified:399.07)
+[2018.09.04-22.46.29:559][  0]LogD3D11RHI:      Driver Date: 8-21-2018
+[2018.09.04-22.46.29:559][  0]LogRHI: Texture pool is 5656 MB (70% of 8081 MB)
+[2018.09.04-22.46.29:615][  0]LogD3D11RHI: Async texture creation enabled
+[2018.09.04-22.46.29:674][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.09.04-22.46.29:721][  0]LogShaderCompilers: Guid format shader working directory is 12 characters bigger than the processId version (../../../../GameDev/_Projects/RunR/Intermediate/Shaders/WorkingDirectory/3708/).
+[2018.09.04-22.46.29:722][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/maloo/AppData/Local/Temp/UnrealShaderWorkingDir/1FA6CD194AD51D41BAD39CAD86730B4A/'.
+[2018.09.04-22.46.30:084][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.09.04-22.46.30:098][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.09.04-22.46.30:113][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.09.04-22.46.30:125][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.09.04-22.46.30:138][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.09.04-22.46.30:151][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.09.04-22.46.30:165][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.09.04-22.46.30:178][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.09.04-22.46.30:185][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.09.04-22.46.30:275][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.04-22.46.30:275][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.04-22.46.30:275][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.04-22.46.30:275][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.04-22.46.30:275][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.04-22.46.30:275][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.04-22.46.30:275][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.04-22.46.30:275][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.04-22.46.30:275][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.04-22.46.30:275][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.04-22.46.30:275][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.04-22.46.30:275][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.04-22.46.30:275][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.04-22.46.30:275][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.04-22.46.30:275][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.04-22.46.30:275][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.04-22.46.30:275][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.04-22.46.30:275][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.04-22.46.30:277][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.09.04-22.46.30:343][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.04-22.46.30:343][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.04-22.46.30:368][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.04-22.46.30:368][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.04-22.46.30:381][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.09.04-22.46.30:400][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.09.04-22.46.30:417][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.09.04-22.46.30:432][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.09.04-22.46.30:442][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.09.04-22.46.30:442][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.09.04-22.46.30:504][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.09.04-22.46.30:504][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.09.04-22.46.30:504][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.09.04-22.46.31:330][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.09.04-22.46.31:400][  0]LogDerivedDataCache: Loaded boot cache 0.07s 71MB C:/Users/maloo/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.04-22.46.31:401][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/maloo/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.09.04-22.46.31:401][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../GameDev/_Projects/RunR/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.09.04-22.46.31:401][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.09.04-22.46.31:401][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../GameDev/_Projects/RunR/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.09.04-22.46.31:401][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.09.04-22.46.31:415][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.09.04-22.46.31:427][  0]LogDerivedDataCache: Using Local data cache path C:/Users/maloo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.09.04-22.46.31:427][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.09.04-22.46.31:427][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.09.04-22.46.31:450][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.09.04-22.46.31:452][  0]LogSlate: Using FreeType 2.6.0
+[2018.09.04-22.46.31:454][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.09.04-22.46.31:547][  0]LogAssetRegistry: FAssetRegistry took 0.0266 seconds to start up
+[2018.09.04-22.46.31:904][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.04-22.46.32:064][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.09.04-22.46.32:068][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.09.04-22.46.32:068][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.09.04-22.46.32:068][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.09.04-22.46.32:068][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.09.04-22.46.32:091][  0]LogNetVersion: RunR 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3769191507)
+[2018.09.04-22.46.32:899][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.257522 seconds
+[2018.09.04-22.46.32:907][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.09.04-22.46.32:907][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.09.04-22.46.32:907][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.09.04-22.46.34:046][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.09.04-22.46.34:059][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.09.04-22.46.34:221][  0]SourceControl: Source control is disabled
+[2018.09.04-22.46.34:221][  0]SourceControl: Source control is disabled
+[2018.09.04-22.46.34:222][  0]SourceControl: Source control is disabled
+[2018.09.04-22.46.34:223][  0]SourceControl: Source control is disabled
+[2018.09.04-22.46.34:413][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.09.04-22.46.34:487][  0]LogOcInput: OculusInput pre-init called
+[2018.09.04-22.46.34:554][  0]LogEngine: Initializing Engine...
+[2018.09.04-22.46.34:554][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.09.04-22.46.34:556][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.04-22.46.34:556][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.04-22.46.34:556][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.04-22.46.34:556][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.04-22.46.34:799][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.09.04-22.46.34:811][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.09.04-22.46.34:827][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.04-22.46.35:354][  0]LogInit: FAudioDevice initialized.
+[2018.09.04-22.46.35:355][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.09.04-22.46.35:447][  0]LogDerivedDataCache: Saved boot cache 0.09s 71MB C:/Users/maloo/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.04-22.46.35:475][  0]LogInit: Texture streaming: Enabled
+[2018.09.04-22.46.35:492][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.09.04-22.46.35:550][  0]LogInit: Transaction tracking system initialized
+[2018.09.04-22.46.35:570][  0]BlueprintLog: New page: Editor Load
+[2018.09.04-22.46.35:655][  0]LocalizationService: Localization service is disabled
+[2018.09.04-22.46.36:134][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.09.04-22.46.36:134][  0]LogCook: Display: Mobile HDR setting 1
+[2018.09.04-22.46.36:134][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.09.04-22.46.36:134][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.04-22.46.36:134][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.04-22.46.36:135][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.04-22.46.36:135][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.04-22.46.36:268][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/_Projects/RunR/Content/' took 0.03s
+[2018.09.04-22.46.36:268][  0]SourceControl: Source control is disabled
+[2018.09.04-22.46.36:268][  0]Cmd: MAP LOAD FILE="../../../../GameDev/_Projects/RunR/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.04-22.46.36:269][  0]LightingResults: New page: Lighting Build
+[2018.09.04-22.46.36:271][  0]MapCheck: New page: Map Check
+[2018.09.04-22.46.36:271][  0]LightingResults: New page: Lighting Build
+[2018.09.04-22.46.38:586][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.09.04-22.46.38:742][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.04-22.46.38:768][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.04-22.46.38:855][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 86.835ms to complete.
+[2018.09.04-22.46.38:855][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 2.586
+[2018.09.04-22.46.39:281][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.04-22.46.39:320][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.04-22.46.39:331][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.04-22.46.39:340][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.04-22.46.39:363][  0]LogCollectionManager: Loaded 0 collections in 0.013572 seconds
+[2018.09.04-22.46.39:443][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/_Projects/RunR/Saved/Collections/' took 0.01s
+[2018.09.04-22.46.39:443][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/_Projects/RunR/Content/Developers/maloo/Collections/' took 0.01s
+[2018.09.04-22.46.39:443][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/_Projects/RunR/Content/Collections/' took 0.01s
+[2018.09.04-22.46.39:443][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.09.04-22.46.39:455][  0]LogContentBrowser: Native class hierarchy populated in 0.0114 seconds. Added 2572 classes and 603 folders.
+[2018.09.04-22.46.39:504][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.09.04-22.46.40:503][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.09.04-22.46.40:554][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.09.04-22.46.41:438][  0]LogSlate: Took 0.000340 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.09.04-22.46.41:443][  0]LogSlate: Took 0.000344 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.09.04-22.46.41:494][  0]LogSlate: Took 0.023507 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.09.04-22.46.41:836][  0]LogRenderer: Reallocating scene render targets to support 1072x452 Format 10 NumSamples 1 (Frame:1).
+[2018.09.04-22.46.42:091][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.09.04-22.46.42:091][  0]LogLoad: (Engine Initialization) Total time: 18.08 seconds
+[2018.09.04-22.46.42:091][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.09.04-22.46.42:110][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.09.04-22.46.42:149][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2018.09.04-22.46.42:320][  1]LogAssetRegistry: Asset discovery search completed in 10.7954 seconds
+[2018.09.04-22.46.42:322][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.09.04-22.46.42:322][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000054 seconds (updated 0 objects)
+[2018.09.04-22.46.43:176][ 43]LogSlate: Took 0.022234 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.09.04-22.46.45:549][185]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.04-22.46.46:068][189]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/RunGameMode.RunGameMode
+[2018.09.04-22.46.47:254][189]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 116 classes and 0 folders.
+[2018.09.04-22.46.48:969][189]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/BP_FloorTile.BP_FloorTile
+[2018.09.04-22.46.49:369][189]LogSlate: Took 0.017307 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.09.04-22.46.49:773][190]LogSlate: Took 0.019339 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.09.04-22.46.59:980][772]LogSlate: Window 'RunGameMode' being destroyed
+[2018.09.04-22.47.01:558][860]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.04-22.47.01:628][860]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.09.04-22.47.01:628][860]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.04-22.47.01:672][860]PIE: New page: PIE session: ThirdPersonExampleMap (Sep 4, 2018, 2:47:01 PM)
+[2018.09.04-22.47.01:672][860]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.09.04-22.47.01:726][860]LogPlayLevel: PIE: StaticDuplicateObject took: (0.054271s)
+[2018.09.04-22.47.01:727][860]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.09.04-22.47.01:728][860]LogPlayLevel: PIE: World Init took: (0.001716s)
+[2018.09.04-22.47.01:728][860]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.056564s)
+[2018.09.04-22.47.01:782][860]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.04-22.47.01:867][860]LogInit: FAudioDevice initialized.
+[2018.09.04-22.47.01:920][860]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.04-22.47.01:961][860]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2018.09.04-18.47.01
+[2018.09.04-22.47.01:978][860]LogWorld: Bringing up level for play took: 0.032973
+[2018.09.04-22.47.02:048][860]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 10 classes and 0 folders.
+[2018.09.04-22.47.02:055][860]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.206
+[2018.09.04-22.47.02:055][860]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.09.04-22.47.03:877][965]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.09.04-22.47.03:915][965]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.04-22.47.03:954][965]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.04-22.47.03:954][965]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.09.04-22.47.03:987][965]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.04-22.47.04:014][966]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2018.09.04-22.47.05:957][ 82]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.04-22.47.07:159][138]LogAIModule: Creating AISystem for world MainRun
+[2018.09.04-22.47.07:167][138]LogAssetEditorManager: Opening Asset editor for World /Game/ThirdPersonBP/Maps/MainRun.MainRun
+[2018.09.04-22.47.07:218][138]Cmd: MAP LOAD FILE="../../../../GameDev/_Projects/RunR/Content/ThirdPersonBP/Maps/MainRun.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.04-22.47.07:218][138]LightingResults: New page: Lighting Build
+[2018.09.04-22.47.07:218][138]LoadErrors: New page: Loading map: MainRun.umap
+[2018.09.04-22.47.07:219][138]MapCheck: New page: Map Check
+[2018.09.04-22.47.07:219][138]LightingResults: New page: Lighting Build
+[2018.09.04-22.47.07:383][138]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.04-22.47.07:447][138]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.04-22.47.07:537][138]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 90.274ms to complete.
+[2018.09.04-22.47.07:537][138]LogFileHelpers: Loading map 'MainRun' took 0.320
+[2018.09.04-22.47.08:715][206]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.04-22.47.08:741][206]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.04-22.47.08:741][206]PIE: New page: PIE session: MainRun (Sep 4, 2018, 2:47:08 PM)
+[2018.09.04-22.47.08:741][206]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun
+[2018.09.04-22.47.08:745][206]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003597s)
+[2018.09.04-22.47.08:745][206]LogAIModule: Creating AISystem for world MainRun
+[2018.09.04-22.47.08:745][206]LogPlayLevel: PIE: World Init took: (0.000656s)
+[2018.09.04-22.47.08:746][206]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MainRun.MainRun to /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun.MainRun (0.004438s)
+[2018.09.04-22.47.08:782][206]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.04-22.47.08:864][206]LogInit: FAudioDevice initialized.
+[2018.09.04-22.47.08:899][206]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.04-22.47.08:900][206]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun.MainRun up for play (max tick rate 60) at 2018.09.04-18.47.08
+[2018.09.04-22.47.08:901][206]LogWorld: Bringing up level for play took: 0.000565
+[2018.09.04-22.47.08:970][206]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun 0.71
+[2018.09.04-22.48.01:247][314]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.04-22.48.01:283][314]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.04-22.48.01:319][314]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.04-22.48.01:360][316]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2018.09.04-22.48.14:746][119]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.04-23.17.10:775][431]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.04-23.17.14:251][560]LogSlate: Window 'Pick Parent Class' being destroyed
+[2018.09.04-23.17.26:724][998]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/BP_Blocker.BP_Blocker
+[2018.09.04-23.17.27:121][999]LogRenderer: Reallocating scene render targets to support 1072x616 Format 10 NumSamples 1 (Frame:1).
+[2018.09.04-23.17.52:245][358]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/MainRun' took 0.034
+[2018.09.04-23.17.52:263][358]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/BP_Blocker] ([1] browsable assets)...
+[2018.09.04-23.17.52:263][358]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/BP_Blocker]
+[2018.09.04-23.17.52:299][358]LogSavePackage: Moving '../../../../GameDev/_Projects/RunR/Saved/BP_Blocker_Auto10BC5D8084DDD254791A3E9A2BB10EA06.tmp' to '../../../../GameDev/_Projects/RunR/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/BP_Blocker_Auto1.uasset'
+[2018.09.04-23.17.52:320][358]LogFileHelpers: Auto-saving content packages took 0.074
+[2018.09.04-23.18.21:546][300]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.04-23.18.21:596][303]BlueprintLog: New page: Compile BP_Blocker
+[2018.09.04-23.20.42:673][193]LogSlate: Window 'BP_FloorTile' being destroyed
+[2018.09.04-23.21.24:395][188]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.04-23.21.27:662][380]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.04-23.21.44:125][888]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.04-23.22.00:833][433]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.04-23.27.52:798][696]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/MainRun' took 0.038
+[2018.09.04-23.27.52:801][696]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/BP_Blocker] ([1] browsable assets)...
+[2018.09.04-23.27.52:821][696]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/BP_Blocker.BP_Blocker]
+[2018.09.04-23.27.52:821][696]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/BP_Blocker]
+[2018.09.04-23.27.53:131][696]LogSavePackage: Moving '../../../../GameDev/_Projects/RunR/Saved/BP_Blocker_Auto2F8E9704944DC1A9FCB6B7787C8E587CA.tmp' to '../../../../GameDev/_Projects/RunR/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/BP_Blocker_Auto2.uasset'
+[2018.09.04-23.27.53:134][696]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/BP_FloorTile] ([1] browsable assets)...
+[2018.09.04-23.27.53:153][696]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/BP_FloorTile.BP_FloorTile]
+[2018.09.04-23.27.53:153][696]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/BP_FloorTile]
+[2018.09.04-23.27.53:227][696]LogSavePackage: Moving '../../../../GameDev/_Projects/RunR/Saved/BP_FloorTile_Auto2ADA055C94B39BC82254CDCA02B0D0543.tmp' to '../../../../GameDev/_Projects/RunR/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/BP_FloorTile_Auto2.uasset'
+[2018.09.04-23.27.53:228][696]LogFileHelpers: Auto-saving content packages took 0.428
+[2018.09.04-23.37.53:606][120]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/MainRun' took 0.038
+[2018.09.04-23.37.53:608][120]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/BP_FloorTile] ([1] browsable assets)...
+[2018.09.04-23.37.53:620][120]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/BP_FloorTile.BP_FloorTile]
+[2018.09.04-23.37.53:620][120]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/BP_FloorTile]
+[2018.09.04-23.37.53:676][120]LogSavePackage: Moving '../../../../GameDev/_Projects/RunR/Saved/BP_FloorTile_Auto31F67F99041DC1314CEC9E783302FBFE4.tmp' to '../../../../GameDev/_Projects/RunR/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/BP_FloorTile_Auto3.uasset'
+[2018.09.04-23.37.53:677][120]LogFileHelpers: Auto-saving content packages took 0.070
+[2018.09.04-23.40.21:982][446]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.09.04-23.42.38:617][624]BlueprintLog: New page: Compile BP_FloorTile
+[2018.09.04-23.43.05:863][249]BlueprintLog: New page: Compile BP_FloorTile
+[2018.09.04-23.44.21:204][548]BlueprintLog: New page: Compile BP_FloorTile
+[2018.09.04-23.44.39:479][381]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.04-23.44.39:507][381]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.04-23.44.39:507][381]PIE: New page: PIE session: MainRun (Sep 4, 2018, 3:44:39 PM)
+[2018.09.04-23.44.39:508][381]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun
+[2018.09.04-23.44.39:510][381]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002346s)
+[2018.09.04-23.44.39:512][381]LogAIModule: Creating AISystem for world MainRun
+[2018.09.04-23.44.39:512][381]LogPlayLevel: PIE: World Init took: (0.001590s)
+[2018.09.04-23.44.39:512][381]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MainRun.MainRun to /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun.MainRun (0.004247s)
+[2018.09.04-23.44.39:557][381]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.04-23.44.39:629][381]LogInit: FAudioDevice initialized.
+[2018.09.04-23.44.39:640][381]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.04-23.44.39:706][381]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.04-23.44.39:708][381]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun.MainRun up for play (max tick rate 60) at 2018.09.04-19.44.39
+[2018.09.04-23.44.39:708][381]LogWorld: Bringing up level for play took: 0.000620
+[2018.09.04-23.44.39:735][381]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun -0.527
+[2018.09.04-23.44.46:195][763]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.04-23.44.46:212][763]LogSlate: Window 'RunR Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.04-23.44.46:247][763]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.04-23.44.46:296][764]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2018.09.04-23.44.48:646][904]BlueprintLog: New page: Compile BP_FloorTile
+[2018.09.04-23.46.11:951][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/BP_FloorTile" FILE="../../../../GameDev/_Projects/RunR/Content/ThirdPersonBP/Blueprints/BP_FloorTile.uasset" SILENT=true
+[2018.09.04-23.46.12:015][340]LogSavePackage: Moving '../../../../GameDev/_Projects/RunR/Saved/BP_FloorTileE7B9423C4A539D22855F27905ED1FE68.tmp' to '../../../../GameDev/_Projects/RunR/Content/ThirdPersonBP/Blueprints/BP_FloorTile.uasset'
+[2018.09.04-23.46.29:710][659]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/RunCharacter.RunCharacter
+[2018.09.04-23.47.57:432][513]BlueprintLog: New page: Compile RunCharacter
+[2018.09.04-23.48.03:871][874]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.04-23.48.03:900][874]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.04-23.48.03:900][874]PIE: New page: PIE session: MainRun (Sep 4, 2018, 3:48:03 PM)
+[2018.09.04-23.48.03:901][874]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun
+[2018.09.04-23.48.03:903][874]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002011s)
+[2018.09.04-23.48.03:903][874]LogAIModule: Creating AISystem for world MainRun
+[2018.09.04-23.48.03:904][874]LogPlayLevel: PIE: World Init took: (0.001043s)
+[2018.09.04-23.48.03:904][874]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MainRun.MainRun to /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun.MainRun (0.003397s)
+[2018.09.04-23.48.03:946][874]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.04-23.48.04:024][874]LogInit: FAudioDevice initialized.
+[2018.09.04-23.48.04:038][874]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.04-23.48.04:117][874]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.04-23.48.04:119][874]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun.MainRun up for play (max tick rate 60) at 2018.09.04-19.48.04
+[2018.09.04-23.48.04:119][874]LogWorld: Bringing up level for play took: 0.000777
+[2018.09.04-23.48.04:147][874]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun -0.115
+[2018.09.04-23.48.27:322][261]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.04-23.48.27:341][261]LogSlate: Window 'RunR Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.04-23.48.27:379][261]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.04-23.48.27:452][262]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2018.09.04-23.48.53:794][665]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/MainRun' took 0.040
+[2018.09.04-23.48.53:796][665]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/RunCharacter] ([1] browsable assets)...
+[2018.09.04-23.48.53:812][665]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/RunCharacter.RunCharacter]
+[2018.09.04-23.48.53:812][665]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/RunCharacter]
+[2018.09.04-23.48.53:884][665]LogSavePackage: Moving '../../../../GameDev/_Projects/RunR/Saved/RunCharacter_Auto4203B461D42D745A065F9E4947EE5465D.tmp' to '../../../../GameDev/_Projects/RunR/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/RunCharacter_Auto4.uasset'
+[2018.09.04-23.48.53:886][665]LogFileHelpers: Auto-saving content packages took 0.090
+[2018.09.04-23.49.12:792][913]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.04-23.49.12:808][913]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/StarterContent/Props/SM_Rock.SM_Rock
+[2018.09.04-23.49.14:012][914]LogRenderer: Reallocating scene render targets to support 1272x804 Format 10 NumSamples 1 (Frame:1).
+[2018.09.04-23.49.53:528][848]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.04-23.49.54:697][900]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Props/SM_Rock" FILE="../../../../GameDev/_Projects/RunR/Content/StarterContent/Props/SM_Rock.uasset" SILENT=true
+[2018.09.04-23.49.54:724][900]LogSavePackage: Moving '../../../../GameDev/_Projects/RunR/Saved/SM_Rock0939C8B54CDF8439EE9AA3AC06C8F689.tmp' to '../../../../GameDev/_Projects/RunR/Content/StarterContent/Props/SM_Rock.uasset'
+[2018.09.04-23.50.09:966][269]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.04-23.50.09:994][269]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.04-23.50.09:994][269]PIE: New page: PIE session: MainRun (Sep 4, 2018, 3:50:09 PM)
+[2018.09.04-23.50.09:994][269]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun
+[2018.09.04-23.50.09:998][269]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003733s)
+[2018.09.04-23.50.09:999][269]LogAIModule: Creating AISystem for world MainRun
+[2018.09.04-23.50.09:999][269]LogPlayLevel: PIE: World Init took: (0.001194s)
+[2018.09.04-23.50.09:999][269]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MainRun.MainRun to /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun.MainRun (0.005083s)
+[2018.09.04-23.50.10:046][269]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.04-23.50.10:116][269]LogInit: FAudioDevice initialized.
+[2018.09.04-23.50.10:130][269]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.04-23.50.10:204][269]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.04-23.50.10:206][269]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun.MainRun up for play (max tick rate 60) at 2018.09.04-19.50.10
+[2018.09.04-23.50.10:206][269]LogWorld: Bringing up level for play took: 0.000713
+[2018.09.04-23.50.10:231][269]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun -0.03
+[2018.09.04-23.50.23:822][ 79]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.04-23.50.23:840][ 79]LogSlate: Window 'RunR Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.04-23.50.23:881][ 79]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.04-23.50.23:949][ 80]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2018.09.04-23.53.08:284][134]BlueprintLog: New page: Compile RunCharacter
+[2018.09.04-23.53.12:169][349]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.04-23.53.12:202][349]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.04-23.53.12:203][349]PIE: New page: PIE session: MainRun (Sep 4, 2018, 3:53:12 PM)
+[2018.09.04-23.53.12:203][349]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun
+[2018.09.04-23.53.12:206][349]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002680s)
+[2018.09.04-23.53.12:207][349]LogAIModule: Creating AISystem for world MainRun
+[2018.09.04-23.53.12:207][349]LogPlayLevel: PIE: World Init took: (0.001159s)
+[2018.09.04-23.53.12:207][349]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MainRun.MainRun to /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun.MainRun (0.004033s)
+[2018.09.04-23.53.12:246][349]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.04-23.53.12:319][349]LogInit: FAudioDevice initialized.
+[2018.09.04-23.53.12:332][349]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.04-23.53.12:413][349]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.04-23.53.12:414][349]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun.MainRun up for play (max tick rate 60) at 2018.09.04-19.53.12
+[2018.09.04-23.53.12:414][349]LogWorld: Bringing up level for play took: 0.000585
+[2018.09.04-23.53.12:438][349]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun 0.177
+[2018.09.04-23.53.26:966][216]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.04-23.53.26:985][216]LogSlate: Window 'RunR Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.04-23.53.27:029][216]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.04-23.53.27:191][217]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2018.09.04-23.53.28:979][324]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.04-23.53.29:007][324]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.04-23.53.29:008][324]PIE: New page: PIE session: MainRun (Sep 4, 2018, 3:53:29 PM)
+[2018.09.04-23.53.29:008][324]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun
+[2018.09.04-23.53.29:011][324]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003325s)
+[2018.09.04-23.53.29:013][324]LogAIModule: Creating AISystem for world MainRun
+[2018.09.04-23.53.29:013][324]LogPlayLevel: PIE: World Init took: (0.001579s)
+[2018.09.04-23.53.29:013][324]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MainRun.MainRun to /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun.MainRun (0.005139s)
+[2018.09.04-23.53.29:051][324]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.04-23.53.29:130][324]LogInit: FAudioDevice initialized.
+[2018.09.04-23.53.29:165][324]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.04-23.53.29:166][324]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun.MainRun up for play (max tick rate 60) at 2018.09.04-19.53.29
+[2018.09.04-23.53.29:166][324]LogWorld: Bringing up level for play took: 0.000468
+[2018.09.04-23.53.29:188][324]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun 0.927
+[2018.09.04-23.54.13:253][937]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.04-23.54.13:338][942]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.04-23.54.13:373][942]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.04-23.54.13:413][942]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.04-23.54.13:449][944]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2018.09.04-23.54.32:945][113]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.04-23.54.32:977][113]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.04-23.54.32:977][113]PIE: New page: PIE session: MainRun (Sep 4, 2018, 3:54:32 PM)
+[2018.09.04-23.54.32:977][113]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun
+[2018.09.04-23.54.32:979][113]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002101s)
+[2018.09.04-23.54.32:980][113]LogAIModule: Creating AISystem for world MainRun
+[2018.09.04-23.54.32:980][113]LogPlayLevel: PIE: World Init took: (0.001080s)
+[2018.09.04-23.54.32:980][113]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MainRun.MainRun to /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun.MainRun (0.003360s)
+[2018.09.04-23.54.33:028][113]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.04-23.54.33:103][113]LogInit: FAudioDevice initialized.
+[2018.09.04-23.54.33:136][113]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.04-23.54.33:138][113]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun.MainRun up for play (max tick rate 60) at 2018.09.04-19.54.33
+[2018.09.04-23.54.33:138][113]LogWorld: Bringing up level for play took: 0.000667
+[2018.09.04-23.54.33:162][113]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun 0.901
+[2018.09.04-23.55.02:580][869]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.04-23.55.02:617][869]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.04-23.55.02:659][869]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.04-23.55.02:704][871]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2018.09.04-23.55.07:826][178]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.04-23.55.07:909][183]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.04-23.55.07:941][183]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.04-23.55.07:941][183]PIE: New page: PIE session: MainRun (Sep 4, 2018, 3:55:07 PM)
+[2018.09.04-23.55.07:942][183]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun
+[2018.09.04-23.55.07:943][183]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001811s)
+[2018.09.04-23.55.07:945][183]LogAIModule: Creating AISystem for world MainRun
+[2018.09.04-23.55.07:945][183]LogPlayLevel: PIE: World Init took: (0.001266s)
+[2018.09.04-23.55.07:945][183]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MainRun.MainRun to /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun.MainRun (0.003266s)
+[2018.09.04-23.55.07:988][183]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.04-23.55.08:071][183]LogInit: FAudioDevice initialized.
+[2018.09.04-23.55.08:106][183]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.04-23.55.08:107][183]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun.MainRun up for play (max tick rate 60) at 2018.09.04-19.55.08
+[2018.09.04-23.55.08:107][183]LogWorld: Bringing up level for play took: 0.000437
+[2018.09.04-23.55.08:131][183]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun -0.13
+[2018.09.04-23.55.22:801][ 62]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.04-23.55.22:839][ 62]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.04-23.55.22:879][ 62]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.04-23.55.22:915][ 64]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2018.09.04-23.55.30:156][231]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.04-23.57.03:761][451]BlueprintLog: New page: Compile RunCharacter
+[2018.09.04-23.57.13:520][929]BlueprintLog: New page: Compile RunCharacter
+[2018.09.04-23.57.14:937][994]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/RunCharacter" FILE="../../../../GameDev/_Projects/RunR/Content/ThirdPersonBP/Blueprints/RunCharacter.uasset" SILENT=true
+[2018.09.04-23.57.15:002][994]LogSavePackage: Moving '../../../../GameDev/_Projects/RunR/Saved/RunCharacter5E41189548ABC8683AC02382CB982565.tmp' to '../../../../GameDev/_Projects/RunR/Content/ThirdPersonBP/Blueprints/RunCharacter.uasset'
+[2018.09.04-23.58.13:484][272]BlueprintLog: New page: Compile RunCharacter
+[2018.09.04-23.58.37:090][938]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.04-23.58.38:163][  2]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_Blocker_C_CHILDACTOR_43.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.04-23.58.38:166][  2]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Blocker_C_CHILDACTOR_65.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.04-23.59.15:939][335]BlueprintLog: New page: Compile BP_Blocker
+[2018.09.04-23.59.16:118][335]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_Blocker_C_CHILDACTOR_45.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.04-23.59.16:121][335]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Blocker_C_CHILDACTOR_67.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.04-23.59.16:127][335]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_Blocker_C_CHILDACTOR_47.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.04-23.59.16:129][335]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Blocker_C_CHILDACTOR_69.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.04-23.59.23:468][429]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/BP_Blocker" FILE="../../../../GameDev/_Projects/RunR/Content/ThirdPersonBP/Blueprints/BP_Blocker.uasset" SILENT=true
+[2018.09.04-23.59.23:498][429]LogSavePackage: Moving '../../../../GameDev/_Projects/RunR/Saved/BP_BlockerCA352D594B9404F42C8DE6848B9CFD74.tmp' to '../../../../GameDev/_Projects/RunR/Content/ThirdPersonBP/Blueprints/BP_Blocker.uasset'
+[2018.09.04-23.59.49:862][134]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.04-23.59.49:896][134]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.04-23.59.49:896][134]PIE: New page: PIE session: MainRun (Sep 4, 2018, 3:59:49 PM)
+[2018.09.04-23.59.49:896][134]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun
+[2018.09.04-23.59.49:899][134]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002060s)
+[2018.09.04-23.59.49:899][134]LogAIModule: Creating AISystem for world MainRun
+[2018.09.04-23.59.49:900][134]LogPlayLevel: PIE: World Init took: (0.001122s)
+[2018.09.04-23.59.49:900][134]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MainRun.MainRun to /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun.MainRun (0.003381s)
+[2018.09.04-23.59.49:944][134]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.04-23.59.50:020][134]LogInit: FAudioDevice initialized.
+[2018.09.04-23.59.50:035][134]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.04-23.59.50:103][134]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.04-23.59.50:104][134]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun.MainRun up for play (max tick rate 60) at 2018.09.04-19.59.50
+[2018.09.04-23.59.50:104][134]LogWorld: Bringing up level for play took: 0.000487
+[2018.09.04-23.59.50:128][134]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun -0.133
+[2018.09.05-00.00.04:374][971]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.05-00.00.04:398][971]LogSlate: Window 'RunR Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.05-00.00.04:438][971]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.05-00.00.04:504][972]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2018.09.05-00.01.23:692][911]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/MainRun' took 0.032
+[2018.09.05-00.01.23:695][911]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/RunCharacter] ([1] browsable assets)...
+[2018.09.05-00.01.23:708][911]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/RunCharacter.RunCharacter]
+[2018.09.05-00.01.23:708][911]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/RunCharacter]
+[2018.09.05-00.01.23:778][911]LogSavePackage: Moving '../../../../GameDev/_Projects/RunR/Saved/RunCharacter_Auto5AEC5BEDA4735DA125BFD58A30B6F1F31.tmp' to '../../../../GameDev/_Projects/RunR/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/RunCharacter_Auto5.uasset'
+[2018.09.05-00.01.23:780][911]LogFileHelpers: Auto-saving content packages took 0.086
+[2018.09.05-00.18.29:654][  9]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/RunCharacter" FILE="../../../../GameDev/_Projects/RunR/Content/ThirdPersonBP/Blueprints/RunCharacter.uasset" SILENT=true
+[2018.09.05-00.18.29:727][  9]LogSavePackage: Moving '../../../../GameDev/_Projects/RunR/Saved/RunCharacter0EFA45754D78E9BD9EF939B5FFB2F41D.tmp' to '../../../../GameDev/_Projects/RunR/Content/ThirdPersonBP/Blueprints/RunCharacter.uasset'
+[2018.09.05-00.19.44:604][391]BlueprintLog: New page: Compile RunCharacter
+[2018.09.05-00.19.44:833][391]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_Blocker_C_CHILDACTOR_49.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.05-00.19.44:836][391]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Blocker_C_CHILDACTOR_71.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.05-00.19.44:871][391]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_Blocker_C_CHILDACTOR_53.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.05-00.19.44:873][391]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Blocker_C_CHILDACTOR_75.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.05-00.20.01:248][655]BlueprintLog: New page: Compile RunCharacter
+[2018.09.05-00.20.01:489][655]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_Blocker_C_CHILDACTOR_57.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.05-00.20.01:492][655]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Blocker_C_CHILDACTOR_79.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.05-00.20.01:521][655]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Blocker_C_CHILDACTOR_83.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.05-00.20.01:523][655]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_Blocker_C_CHILDACTOR_61.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.05-00.20.06:909][740]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/RunCharacter" FILE="../../../../GameDev/_Projects/RunR/Content/ThirdPersonBP/Blueprints/RunCharacter.uasset" SILENT=true
+[2018.09.05-00.20.06:975][740]LogSavePackage: Moving '../../../../GameDev/_Projects/RunR/Saved/RunCharacterC0BC7E6145F6C450E1E2079E4DAF1290.tmp' to '../../../../GameDev/_Projects/RunR/Content/ThirdPersonBP/Blueprints/RunCharacter.uasset'
+[2018.09.05-00.20.17:477][849]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.05-00.20.17:518][849]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.05-00.20.17:518][849]PIE: New page: PIE session: MainRun (Sep 4, 2018, 4:20:17 PM)
+[2018.09.05-00.20.17:518][849]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun
+[2018.09.05-00.20.17:520][849]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002109s)
+[2018.09.05-00.20.17:521][849]LogAIModule: Creating AISystem for world MainRun
+[2018.09.05-00.20.17:521][849]LogPlayLevel: PIE: World Init took: (0.001176s)
+[2018.09.05-00.20.17:521][849]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MainRun.MainRun to /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun.MainRun (0.003426s)
+[2018.09.05-00.20.17:573][849]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.05-00.20.17:650][849]LogInit: FAudioDevice initialized.
+[2018.09.05-00.20.17:665][849]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.05-00.20.17:743][849]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.05-00.20.17:744][849]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun.MainRun up for play (max tick rate 60) at 2018.09.04-20.20.17
+[2018.09.05-00.20.17:744][849]LogWorld: Bringing up level for play took: 0.000527
+[2018.09.05-00.20.17:771][849]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun -0.489
+[2018.09.05-00.20.23:426][185]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.05-00.20.23:445][185]LogSlate: Window 'RunR Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.05-00.20.23:486][185]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.05-00.20.23:559][186]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2018.09.05-00.28.38:769][502]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/MainRun' took 0.040
+[2018.09.05-00.28.38:773][502]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/RunCharacter] ([1] browsable assets)...
+[2018.09.05-00.28.38:796][502]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/RunCharacter.RunCharacter]
+[2018.09.05-00.28.38:796][502]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/RunCharacter]
+[2018.09.05-00.28.38:872][502]LogSavePackage: Moving '../../../../GameDev/_Projects/RunR/Saved/RunCharacter_Auto64E2C97BA4CB33991A8FA4CA1C658A606.tmp' to '../../../../GameDev/_Projects/RunR/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/RunCharacter_Auto6.uasset'
+[2018.09.05-00.28.38:874][502]LogFileHelpers: Auto-saving content packages took 0.103
+[2018.09.05-00.32.35:743][259]BlueprintLog: New page: Compile RunCharacter
+[2018.09.05-00.32.35:964][259]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_Blocker_C_CHILDACTOR_65.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.05-00.32.35:968][259]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Blocker_C_CHILDACTOR_87.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.05-00.32.36:000][259]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Blocker_C_CHILDACTOR_91.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.05-00.32.36:002][259]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_Blocker_C_CHILDACTOR_69.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.05-00.32.36:467][279]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/RunCharacter" FILE="../../../../GameDev/_Projects/RunR/Content/ThirdPersonBP/Blueprints/RunCharacter.uasset" SILENT=true
+[2018.09.05-00.32.36:529][279]LogSavePackage: Moving '../../../../GameDev/_Projects/RunR/Saved/RunCharacterFBA49D374FEE58A0C37AB1A2CE696BFC.tmp' to '../../../../GameDev/_Projects/RunR/Content/ThirdPersonBP/Blueprints/RunCharacter.uasset'
+[2018.09.05-00.32.39:279][439]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.05-00.32.39:308][439]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.05-00.32.39:308][439]PIE: New page: PIE session: MainRun (Sep 4, 2018, 4:32:39 PM)
+[2018.09.05-00.32.39:308][439]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun
+[2018.09.05-00.32.39:310][439]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002294s)
+[2018.09.05-00.32.39:311][439]LogAIModule: Creating AISystem for world MainRun
+[2018.09.05-00.32.39:312][439]LogPlayLevel: PIE: World Init took: (0.001074s)
+[2018.09.05-00.32.39:312][439]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MainRun.MainRun to /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun.MainRun (0.003514s)
+[2018.09.05-00.32.39:357][439]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.05-00.32.39:433][439]LogInit: FAudioDevice initialized.
+[2018.09.05-00.32.39:464][439]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.05-00.32.39:465][439]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun.MainRun up for play (max tick rate 60) at 2018.09.04-20.32.39
+[2018.09.05-00.32.39:465][439]LogWorld: Bringing up level for play took: 0.000486
+[2018.09.05-00.32.39:488][439]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun -0.773
+[2018.09.05-00.32.42:035][590]Cmd: RestartLevel
+[2018.09.05-00.32.42:088][591]LogNet: Browse: /Game/ThirdPersonBP/Maps/MainRun?restart
+[2018.09.05-00.32.42:088][591]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/MainRun
+[2018.09.05-00.32.42:129][591]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun
+[2018.09.05-00.32.42:131][591]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002819s)
+[2018.09.05-00.32.42:133][591]LogAIModule: Creating AISystem for world MainRun
+[2018.09.05-00.32.42:133][591]LogPlayLevel: PIE: World Init took: (0.001285s)
+[2018.09.05-00.32.42:133][591]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MainRun.MainRun to /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun.MainRun (0.004456s)
+[2018.09.05-00.32.42:133][591]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.05-00.32.42:135][591]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun.MainRun up for play (max tick rate 60) at 2018.09.04-20.32.42
+[2018.09.05-00.32.42:136][591]LogWorld: Bringing up level for play took: 0.000915
+[2018.09.05-00.32.42:147][591]LogLoad: Took 0.059097 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun)
+[2018.09.05-00.32.56:470][448]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.05-00.32.56:508][448]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.05-00.32.56:549][448]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.05-00.32.56:574][449]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2018.09.05-00.34.30:195][862]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.05-00.34.33:073][968]LogSlate: Window 'Pick Parent Class' being destroyed
+[2018.09.05-00.34.53:559][565]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/BP_Item.BP_Item
+[2018.09.05-00.36.32:283][477]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.05-00.36.44:603][156]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.05-00.37.13:503][119]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.05-00.37.24:190][310]BlueprintLog: New page: Compile BP_Item
+[2018.09.05-00.37.25:289][359]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/StarterContent/Shapes/Shape_Torus.Shape_Torus
+[2018.09.05-00.37.42:587][349]LogStaticMesh: Building static mesh Shape_Torus...
+[2018.09.05-00.37.42:636][349]LogStaticMesh: Built static mesh [0.05s] /Game/StarterContent/Shapes/Shape_Torus.Shape_Torus
+[2018.09.05-00.38.56:433][771]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/MainRun' took 0.038
+[2018.09.05-00.38.56:437][771]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/BP_Item] ([1] browsable assets)...
+[2018.09.05-00.38.56:449][771]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/BP_Item.BP_Item]
+[2018.09.05-00.38.56:449][771]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/BP_Item]
+[2018.09.05-00.38.56:476][771]LogSavePackage: Moving '../../../../GameDev/_Projects/RunR/Saved/BP_Item_Auto7E33C7D7043307C7A877469858F633034.tmp' to '../../../../GameDev/_Projects/RunR/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/BP_Item_Auto7.uasset'
+[2018.09.05-00.38.56:479][771]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Shapes/Shape_Torus] ([1] browsable assets)...
+[2018.09.05-00.38.56:490][771]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/StarterContent/Shapes/Shape_Torus.Shape_Torus]
+[2018.09.05-00.38.56:490][771]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Shapes/Shape_Torus]
+[2018.09.05-00.38.56:517][771]LogSavePackage: Moving '../../../../GameDev/_Projects/RunR/Saved/Shape_Torus_Auto71DE67837488AA394B25CA48E329D9795.tmp' to '../../../../GameDev/_Projects/RunR/Saved/Autosaves/Game/StarterContent/Shapes/Shape_Torus_Auto7.uasset'
+[2018.09.05-00.38.56:518][771]LogFileHelpers: Auto-saving content packages took 0.084
+[2018.09.05-00.39.20:082][183]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Shapes/Shape_Torus" FILE="../../../../GameDev/_Projects/RunR/Content/StarterContent/Shapes/Shape_Torus.uasset" SILENT=true
+[2018.09.05-00.39.20:094][183]LogSavePackage: Moving '../../../../GameDev/_Projects/RunR/Saved/Shape_Torus4688AF5E498DFA0F789B298A070A52CB.tmp' to '../../../../GameDev/_Projects/RunR/Content/StarterContent/Shapes/Shape_Torus.uasset'
+[2018.09.05-00.43.00:197][675]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.05-00.43.01:376][743]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Shapes/Shape_Torus" FILE="../../../../GameDev/_Projects/RunR/Content/StarterContent/Shapes/Shape_Torus.uasset" SILENT=true
+[2018.09.05-00.43.01:388][743]LogSavePackage: Moving '../../../../GameDev/_Projects/RunR/Saved/Shape_Torus918B56A947F1E36870862DAD0142F7F1.tmp' to '../../../../GameDev/_Projects/RunR/Content/StarterContent/Shapes/Shape_Torus.uasset'
+[2018.09.05-00.49.55:853][651]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.05-00.50.00:968][954]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.05-00.50.25:709][224]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.05-00.50.25:824][231]BlueprintLog: New page: Compile BP_Item
+[2018.09.05-00.51.17:108][286]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/MainRun' took 0.042
+[2018.09.05-00.51.17:111][286]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/BP_Item] ([1] browsable assets)...
+[2018.09.05-00.51.17:126][286]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/BP_Item.BP_Item]
+[2018.09.05-00.51.17:126][286]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/BP_Item]
+[2018.09.05-00.51.17:153][286]LogSavePackage: Moving '../../../../GameDev/_Projects/RunR/Saved/BP_Item_Auto8C399DD474CB34F23EAAF80B44096AD4F.tmp' to '../../../../GameDev/_Projects/RunR/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/BP_Item_Auto8.uasset'
+[2018.09.05-00.51.17:154][286]LogFileHelpers: Auto-saving content packages took 0.045
+[2018.09.05-00.55.16:891][836]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.05-00.55.31:025][391]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.05-00.55.39:950][925]LogSlate: Window 'Color Picker' being destroyed
+[2018.09.05-01.01.17:626][101]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/MainRun' took 0.041
+[2018.09.05-01.01.17:628][101]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/BP_Item] ([1] browsable assets)...
+[2018.09.05-01.01.17:647][101]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/BP_Item.BP_Item]
+[2018.09.05-01.01.17:647][101]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/BP_Item]
+[2018.09.05-01.01.17:675][101]LogSavePackage: Moving '../../../../GameDev/_Projects/RunR/Saved/BP_Item_Auto9E83FE5774A265FF691ADBDA23A29014D.tmp' to '../../../../GameDev/_Projects/RunR/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/BP_Item_Auto9.uasset'
+[2018.09.05-01.01.17:677][101]LogFileHelpers: Auto-saving content packages took 0.050
+[2018.09.05-01.01.50:602][428]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.05-01.01.50:669][432]BlueprintLog: New page: Compile BP_Item
+[2018.09.05-01.08.02:338][848]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.05-01.08.03:420][913]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.05-01.08.03:460][913]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.05-01.08.03:460][913]PIE: New page: PIE session: MainRun (Sep 4, 2018, 5:08:03 PM)
+[2018.09.05-01.08.03:460][913]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun
+[2018.09.05-01.08.03:464][913]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003544s)
+[2018.09.05-01.08.03:465][913]LogAIModule: Creating AISystem for world MainRun
+[2018.09.05-01.08.03:465][913]LogPlayLevel: PIE: World Init took: (0.001380s)
+[2018.09.05-01.08.03:465][913]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MainRun.MainRun to /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun.MainRun (0.005145s)
+[2018.09.05-01.08.03:522][913]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.05-01.08.03:605][913]LogInit: FAudioDevice initialized.
+[2018.09.05-01.08.03:639][913]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.05-01.08.03:640][913]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun.MainRun up for play (max tick rate 60) at 2018.09.04-21.08.03
+[2018.09.05-01.08.03:641][913]LogWorld: Bringing up level for play took: 0.000984
+[2018.09.05-01.08.03:668][913]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun -0.593
+[2018.09.05-01.08.06:187][ 63]Cmd: RestartLevel
+[2018.09.05-01.08.06:203][ 64]LogNet: Browse: /Game/ThirdPersonBP/Maps/MainRun?restart
+[2018.09.05-01.08.06:204][ 64]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/MainRun
+[2018.09.05-01.08.06:249][ 64]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun
+[2018.09.05-01.08.06:251][ 64]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002719s)
+[2018.09.05-01.08.06:252][ 64]LogAIModule: Creating AISystem for world MainRun
+[2018.09.05-01.08.06:252][ 64]LogPlayLevel: PIE: World Init took: (0.001056s)
+[2018.09.05-01.08.06:252][ 64]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MainRun.MainRun to /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun.MainRun (0.004003s)
+[2018.09.05-01.08.06:252][ 64]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.05-01.08.06:254][ 64]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun.MainRun up for play (max tick rate 60) at 2018.09.04-21.08.06
+[2018.09.05-01.08.06:254][ 64]LogWorld: Bringing up level for play took: 0.000610
+[2018.09.05-01.08.06:268][ 64]LogLoad: Took 0.064167 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun)
+[2018.09.05-01.08.08:991][226]Cmd: RestartLevel
+[2018.09.05-01.08.09:007][227]LogNet: Browse: /Game/ThirdPersonBP/Maps/MainRun?restart
+[2018.09.05-01.08.09:007][227]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/MainRun
+[2018.09.05-01.08.09:047][227]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun
+[2018.09.05-01.08.09:049][227]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002013s)
+[2018.09.05-01.08.09:050][227]LogAIModule: Creating AISystem for world MainRun
+[2018.09.05-01.08.09:050][227]LogPlayLevel: PIE: World Init took: (0.000706s)
+[2018.09.05-01.08.09:050][227]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MainRun.MainRun to /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun.MainRun (0.002895s)
+[2018.09.05-01.08.09:050][227]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.05-01.08.09:051][227]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun.MainRun up for play (max tick rate 60) at 2018.09.04-21.08.09
+[2018.09.05-01.08.09:052][227]LogWorld: Bringing up level for play took: 0.000722
+[2018.09.05-01.08.09:063][227]LogLoad: Took 0.055556 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun)
+[2018.09.05-01.08.20:729][926]Cmd: RestartLevel
+[2018.09.05-01.08.20:745][927]LogNet: Browse: /Game/ThirdPersonBP/Maps/MainRun?restart
+[2018.09.05-01.08.20:745][927]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/MainRun
+[2018.09.05-01.08.20:788][927]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun
+[2018.09.05-01.08.20:790][927]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002163s)
+[2018.09.05-01.08.20:791][927]LogAIModule: Creating AISystem for world MainRun
+[2018.09.05-01.08.20:791][927]LogPlayLevel: PIE: World Init took: (0.000940s)
+[2018.09.05-01.08.20:791][927]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MainRun.MainRun to /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun.MainRun (0.003333s)
+[2018.09.05-01.08.20:791][927]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.05-01.08.20:793][927]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun.MainRun up for play (max tick rate 60) at 2018.09.04-21.08.20
+[2018.09.05-01.08.20:793][927]LogWorld: Bringing up level for play took: 0.000699
+[2018.09.05-01.08.20:808][927]LogLoad: Took 0.062200 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun)
+[2018.09.05-01.08.24:197][128]Cmd: RestartLevel
+[2018.09.05-01.08.24:214][129]LogNet: Browse: /Game/ThirdPersonBP/Maps/MainRun?restart
+[2018.09.05-01.08.24:214][129]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/MainRun
+[2018.09.05-01.08.24:255][129]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun
+[2018.09.05-01.08.24:258][129]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002648s)
+[2018.09.05-01.08.24:259][129]LogAIModule: Creating AISystem for world MainRun
+[2018.09.05-01.08.24:259][129]LogPlayLevel: PIE: World Init took: (0.000883s)
+[2018.09.05-01.08.24:259][129]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MainRun.MainRun to /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun.MainRun (0.003726s)
+[2018.09.05-01.08.24:259][129]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.05-01.08.24:261][129]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun.MainRun up for play (max tick rate 60) at 2018.09.04-21.08.24
+[2018.09.05-01.08.24:261][129]LogWorld: Bringing up level for play took: 0.000798
+[2018.09.05-01.08.24:273][129]LogLoad: Took 0.059335 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun)
+[2018.09.05-01.08.29:019][413]Cmd: RestartLevel
+[2018.09.05-01.08.29:035][414]LogNet: Browse: /Game/ThirdPersonBP/Maps/MainRun?restart
+[2018.09.05-01.08.29:035][414]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/MainRun
+[2018.09.05-01.08.29:079][414]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun
+[2018.09.05-01.08.29:082][414]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002563s)
+[2018.09.05-01.08.29:083][414]LogAIModule: Creating AISystem for world MainRun
+[2018.09.05-01.08.29:083][414]LogPlayLevel: PIE: World Init took: (0.001271s)
+[2018.09.05-01.08.29:083][414]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MainRun.MainRun to /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun.MainRun (0.004073s)
+[2018.09.05-01.08.29:083][414]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.05-01.08.29:084][414]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun.MainRun up for play (max tick rate 60) at 2018.09.04-21.08.29
+[2018.09.05-01.08.29:085][414]LogWorld: Bringing up level for play took: 0.000684
+[2018.09.05-01.08.29:095][414]LogLoad: Took 0.059998 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun)
+[2018.09.05-01.08.32:083][593]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.05-01.08.32:123][593]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.05-01.08.32:166][593]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.05-01.08.32:187][594]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2018.09.05-01.08.44:686][343]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.05-01.11.46:974][950]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/MainRun' took 0.047
+[2018.09.05-01.11.46:977][950]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/BP_Item] ([1] browsable assets)...
+[2018.09.05-01.11.46:991][950]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/BP_Item.BP_Item]
+[2018.09.05-01.11.46:991][950]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/BP_Item]
+[2018.09.05-01.11.47:025][950]LogSavePackage: Moving '../../../../GameDev/_Projects/RunR/Saved/BP_Item_Auto0BC395C3B4968C9ABA6F6F19823570844.tmp' to '../../../../GameDev/_Projects/RunR/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/BP_Item_Auto0.uasset'
+[2018.09.05-01.11.47:027][950]LogFileHelpers: Auto-saving content packages took 0.052
+[2018.09.05-01.12.25:855][261]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.05-01.12.30:878][465]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.05-01.12.36:685][715]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.05-01.12.38:382][817]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.05-01.12.41:635][ 12]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.05-01.13.36:291][ 35]BlueprintLog: New page: Compile BP_Item
+[2018.09.05-01.14.10:135][420]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.05-01.14.10:218][425]BlueprintLog: New page: Compile BP_Item
+[2018.09.05-01.15.05:766][416]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/BP_Item" FILE="../../../../GameDev/_Projects/RunR/Content/ThirdPersonBP/Blueprints/BP_Item.uasset" SILENT=true
+[2018.09.05-01.15.05:795][416]LogSavePackage: Moving '../../../../GameDev/_Projects/RunR/Saved/BP_ItemCA1275754E656E23A9B2E3B23C296763.tmp' to '../../../../GameDev/_Projects/RunR/Content/ThirdPersonBP/Blueprints/BP_Item.uasset'
+[2018.09.05-01.17.18:990][481]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.05-01.19.05:479][634]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.09.05-01.21.47:751][733]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/MainRun' took 0.049
+[2018.09.05-01.21.47:754][733]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/BP_FloorTile] ([1] browsable assets)...
+[2018.09.05-01.21.47:773][733]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/BP_FloorTile.BP_FloorTile]
+[2018.09.05-01.21.47:773][733]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/BP_FloorTile]
+[2018.09.05-01.21.47:839][733]LogSavePackage: Moving '../../../../GameDev/_Projects/RunR/Saved/BP_FloorTile_Auto1A6950A5340D56A0D04B2F9A8EFEEF6E4.tmp' to '../../../../GameDev/_Projects/RunR/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/BP_FloorTile_Auto1.uasset'
+[2018.09.05-01.21.47:841][733]LogFileHelpers: Auto-saving content packages took 0.090
+[2018.09.05-01.25.08:031][631]BlueprintLog: New page: Compile BP_FloorTile
+[2018.09.05-01.25.08:848][662]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/BP_FloorTile" FILE="../../../../GameDev/_Projects/RunR/Content/ThirdPersonBP/Blueprints/BP_FloorTile.uasset" SILENT=true
+[2018.09.05-01.25.08:912][662]LogSavePackage: Moving '../../../../GameDev/_Projects/RunR/Saved/BP_FloorTile445E85CA4E8EE7C5C1E7308E5298A69B.tmp' to '../../../../GameDev/_Projects/RunR/Content/ThirdPersonBP/Blueprints/BP_FloorTile.uasset'
+[2018.09.05-01.38.19:889][926]BlueprintLog: New page: Compile BP_FloorTile
+[2018.09.05-01.40.01:758][358]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/MainRun' took 0.042
+[2018.09.05-01.40.01:762][358]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/BP_FloorTile] ([1] browsable assets)...
+[2018.09.05-01.40.01:782][358]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/BP_FloorTile.BP_FloorTile]
+[2018.09.05-01.40.01:782][358]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/BP_FloorTile]
+[2018.09.05-01.40.01:855][358]LogSavePackage: Moving '../../../../GameDev/_Projects/RunR/Saved/BP_FloorTile_Auto2D696910C4672142FA353CE919E3E371C.tmp' to '../../../../GameDev/_Projects/RunR/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/BP_FloorTile_Auto2.uasset'
+[2018.09.05-01.40.01:857][358]LogFileHelpers: Auto-saving content packages took 0.098
+[2018.09.05-01.44.38:726][709]BlueprintLog: New page: Compile BP_FloorTile
+[2018.09.05-01.46.01:323][835]LogHttp: Warning: 00000268DD091800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.09.05-01.46.01:323][835]LogHttp: Warning: 00000268DD091800: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x26801ebffa0 [can pipeline])
+[2018.09.05-01.46.01:323][835]LogHttp: Warning: 00000268DD091800: libcurl info message cache 1 (Re-using existing connection! (#84) with host datarouter.ol.epicgames.com)
+[2018.09.05-01.46.01:323][835]LogHttp: Warning: 00000268DD091800: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.3.214.110) port 443 (#84))
+[2018.09.05-01.46.01:323][835]LogHttp: Warning: 00000268DD091800: libcurl info message cache 3 (upload completely sent off: 1201 out of 1201 bytes)
+[2018.09.05-01.46.01:323][835]LogHttp: Warning: 00000268DD091800: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2018.09.05-01.46.01:323][835]LogHttp: Warning: 00000268DD091800: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2018.09.05-01.46.01:323][835]LogHttp: Warning: 00000268DD091800: libcurl info message cache 6 (Closing connection 84)
+[2018.09.05-01.46.01:323][835]LogHttp: Warning: 00000268DD091800: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF76D5B2D-4801-843B-582F-F6880EDF747A%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.1-4233996%2B%2B%2BUE4%2BRelease-4.20&UserID=e81f7c6a4e20a4c2aba780be7368b7e6%7C69031fb1a45c4ec189825f9d534408ca%7Cd2e6f851-8dc9-42b7-8ff2-f3ab4f006ddd&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2018.09.05-01.46.01:323][835]LogHttp: Warning: 00000268DD091800: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.09.05-01.46.01:323][835]LogHttp: Warning: 00000268DD091800: libcurl info message cache 9 (Closing connection 85)
+[2018.09.05-01.46.17:078][438]LogSlate: Took 0.019090 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.09.05-01.50.31:625][845]BlueprintLog: New page: Compile RunCharacter
+[2018.09.05-01.51.02:785][ 65]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/MainRun' took 0.041
+[2018.09.05-01.51.02:788][ 65]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/RunCharacter] ([1] browsable assets)...
+[2018.09.05-01.51.02:810][ 65]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/RunCharacter.RunCharacter]
+[2018.09.05-01.51.02:810][ 65]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/RunCharacter]
+[2018.09.05-01.51.02:887][ 65]LogSavePackage: Moving '../../../../GameDev/_Projects/RunR/Saved/RunCharacter_Auto31BDAE8FC4047FAC55725938BE34186D0.tmp' to '../../../../GameDev/_Projects/RunR/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/RunCharacter_Auto3.uasset'
+[2018.09.05-01.51.02:890][ 65]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/BP_FloorTile] ([1] browsable assets)...
+[2018.09.05-01.51.02:907][ 65]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/BP_FloorTile.BP_FloorTile]
+[2018.09.05-01.51.02:907][ 65]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/BP_FloorTile]
+[2018.09.05-01.51.02:977][ 65]LogSavePackage: Moving '../../../../GameDev/_Projects/RunR/Saved/BP_FloorTile_Auto3937EAE9A4B8AD62050EB0EA7807885D1.tmp' to '../../../../GameDev/_Projects/RunR/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/BP_FloorTile_Auto3.uasset'
+[2018.09.05-01.51.02:978][ 65]LogFileHelpers: Auto-saving content packages took 0.193
+[2018.09.05-01.51.07:897][200]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.05-01.51.07:927][200]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.05-01.51.07:927][200]PIE: New page: PIE session: MainRun (Sep 4, 2018, 5:51:07 PM)
+[2018.09.05-01.51.07:927][200]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun
+[2018.09.05-01.51.07:930][200]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002970s)
+[2018.09.05-01.51.07:931][200]LogAIModule: Creating AISystem for world MainRun
+[2018.09.05-01.51.07:932][200]LogPlayLevel: PIE: World Init took: (0.001146s)
+[2018.09.05-01.51.07:932][200]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MainRun.MainRun to /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun.MainRun (0.004274s)
+[2018.09.05-01.51.07:985][200]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.05-01.51.08:063][200]LogInit: FAudioDevice initialized.
+[2018.09.05-01.51.08:079][200]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.05-01.51.08:152][200]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.05-01.51.08:153][200]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun.MainRun up for play (max tick rate 60) at 2018.09.04-21.51.08
+[2018.09.05-01.51.08:153][200]LogWorld: Bringing up level for play took: 0.000543
+[2018.09.05-01.51.08:188][200]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun -0.072
+[2018.09.05-01.51.09:703][286]LogSlate: Window 'RunR Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.05-01.51.09:751][286]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.05-01.51.09:830][287]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2018.09.05-01.51.10:781][343]BlueprintLog: New page: Compile BP_Item
+[2018.09.05-01.51.10:984][343]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_293.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.05-01.51.10:985][343]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_292.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.05-01.51.10:985][343]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_297.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.05-01.51.10:985][343]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_296.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.05-01.51.10:985][343]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_294.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.05-01.51.10:985][343]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_295.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.05-01.51.10:998][343]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_304.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.05-01.51.10:998][343]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_305.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.05-01.51.10:998][343]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_308.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.05-01.51.10:998][343]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_306.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.05-01.51.10:998][343]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_309.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.05-01.51.10:998][343]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_307.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.05-01.51.11:708][382]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.05-01.51.11:736][382]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.05-01.51.11:736][382]PIE: New page: PIE session: MainRun (Sep 4, 2018, 5:51:11 PM)
+[2018.09.05-01.51.11:736][382]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun
+[2018.09.05-01.51.11:738][382]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001928s)
+[2018.09.05-01.51.11:739][382]LogAIModule: Creating AISystem for world MainRun
+[2018.09.05-01.51.11:739][382]LogPlayLevel: PIE: World Init took: (0.000700s)
+[2018.09.05-01.51.11:739][382]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MainRun.MainRun to /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun.MainRun (0.002793s)
+[2018.09.05-01.51.11:786][382]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.05-01.51.11:862][382]LogInit: FAudioDevice initialized.
+[2018.09.05-01.51.11:877][382]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.05-01.51.11:952][382]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.05-01.51.11:954][382]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun.MainRun up for play (max tick rate 60) at 2018.09.04-21.51.11
+[2018.09.05-01.51.11:954][382]LogWorld: Bringing up level for play took: 0.000569
+[2018.09.05-01.51.11:992][382]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun -0.269
+[2018.09.05-01.51.23:675][ 79]Cmd: RestartLevel
+[2018.09.05-01.51.23:691][ 80]LogNet: Browse: /Game/ThirdPersonBP/Maps/MainRun?restart
+[2018.09.05-01.51.23:691][ 80]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/MainRun
+[2018.09.05-01.51.23:735][ 80]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun
+[2018.09.05-01.51.23:738][ 80]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003359s)
+[2018.09.05-01.51.23:739][ 80]LogAIModule: Creating AISystem for world MainRun
+[2018.09.05-01.51.23:740][ 80]LogPlayLevel: PIE: World Init took: (0.001161s)
+[2018.09.05-01.51.23:740][ 80]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MainRun.MainRun to /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun.MainRun (0.004781s)
+[2018.09.05-01.51.23:740][ 80]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.05-01.51.23:741][ 80]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun.MainRun up for play (max tick rate 60) at 2018.09.04-21.51.23
+[2018.09.05-01.51.23:741][ 80]LogWorld: Bringing up level for play took: 0.000555
+[2018.09.05-01.51.23:767][ 80]LogLoad: Took 0.075979 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun)
+[2018.09.05-01.51.30:787][501]Cmd: RestartLevel
+[2018.09.05-01.51.30:803][502]LogNet: Browse: /Game/ThirdPersonBP/Maps/MainRun?restart
+[2018.09.05-01.51.30:803][502]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/MainRun
+[2018.09.05-01.51.30:847][502]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun
+[2018.09.05-01.51.30:849][502]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002341s)
+[2018.09.05-01.51.30:850][502]LogAIModule: Creating AISystem for world MainRun
+[2018.09.05-01.51.30:850][502]LogPlayLevel: PIE: World Init took: (0.001328s)
+[2018.09.05-01.51.30:850][502]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MainRun.MainRun to /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun.MainRun (0.003878s)
+[2018.09.05-01.51.30:850][502]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.05-01.51.30:851][502]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun.MainRun up for play (max tick rate 60) at 2018.09.04-21.51.30
+[2018.09.05-01.51.30:852][502]LogWorld: Bringing up level for play took: 0.000508
+[2018.09.05-01.51.30:874][502]LogLoad: Took 0.070117 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun)
+[2018.09.05-01.51.31:473][538]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.05-01.51.31:493][538]LogSlate: Window 'RunR Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.05-01.51.31:530][538]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.05-01.51.31:593][539]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2018.09.05-01.53.30:186][ 61]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.05-01.55.26:521][857]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.05-01.55.36:343][444]BlueprintLog: New page: Compile BP_Item
+[2018.09.05-01.57.21:914][258]BlueprintLog: New page: Compile BP_Item
+[2018.09.05-01.57.22:527][279]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/BP_Item" FILE="../../../../GameDev/_Projects/RunR/Content/ThirdPersonBP/Blueprints/BP_Item.uasset" SILENT=true
+[2018.09.05-01.57.22:572][279]LogSavePackage: Moving '../../../../GameDev/_Projects/RunR/Saved/BP_Item9F4F1D6647AB2547092439B2961022F4.tmp' to '../../../../GameDev/_Projects/RunR/Content/ThirdPersonBP/Blueprints/BP_Item.uasset'
+[2018.09.05-01.59.00:660][810]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:\GameDev\_Projects\collectcoin.wav)
+[2018.09.05-01.59.48:186][176]BlueprintLog: New page: Compile BP_Item
+[2018.09.05-01.59.48:387][176]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_333.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.05-01.59.48:388][176]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_330.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.05-01.59.48:388][176]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_331.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.05-01.59.48:388][176]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_329.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.05-01.59.48:388][176]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_332.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.05-01.59.48:388][176]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_328.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.05-02.00.06:501][382]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.05-02.00.06:531][382]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.05-02.00.06:531][382]PIE: New page: PIE session: MainRun (Sep 4, 2018, 6:00:06 PM)
+[2018.09.05-02.00.06:532][382]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun
+[2018.09.05-02.00.06:534][382]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001998s)
+[2018.09.05-02.00.06:534][382]LogAIModule: Creating AISystem for world MainRun
+[2018.09.05-02.00.06:535][382]LogPlayLevel: PIE: World Init took: (0.001000s)
+[2018.09.05-02.00.06:535][382]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MainRun.MainRun to /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun.MainRun (0.003240s)
+[2018.09.05-02.00.06:578][382]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.05-02.00.06:656][382]LogInit: FAudioDevice initialized.
+[2018.09.05-02.00.06:673][382]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.05-02.00.06:748][382]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.05-02.00.06:750][382]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun.MainRun up for play (max tick rate 60) at 2018.09.04-22.00.06
+[2018.09.05-02.00.06:750][382]LogWorld: Bringing up level for play took: 0.000624
+[2018.09.05-02.00.06:792][382]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun 0.532
+[2018.09.05-02.00.09:788][558]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave collectcoin...
+[2018.09.05-02.00.09:788][558]LogTemp: Couldn't find amount to resample to.
+[2018.09.05-02.00.09:869][558]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 116088 while cooking SoundWave /Game/ThirdPersonBP/Sounds/collectcoin.collectcoin.
+[2018.09.05-02.00.15:613][903]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.05-02.00.15:629][903]LogSlate: Window 'RunR Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.05-02.00.15:670][903]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.05-02.00.15:733][904]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2018.09.05-02.00.32:261][894]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.05-02.00.32:293][894]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.05-02.00.32:293][894]PIE: New page: PIE session: MainRun (Sep 4, 2018, 6:00:32 PM)
+[2018.09.05-02.00.32:293][894]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun
+[2018.09.05-02.00.32:297][894]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003438s)
+[2018.09.05-02.00.32:297][894]LogAIModule: Creating AISystem for world MainRun
+[2018.09.05-02.00.32:298][894]LogPlayLevel: PIE: World Init took: (0.000872s)
+[2018.09.05-02.00.32:298][894]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MainRun.MainRun to /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun.MainRun (0.004460s)
+[2018.09.05-02.00.32:341][894]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.05-02.00.32:414][894]LogInit: FAudioDevice initialized.
+[2018.09.05-02.00.32:430][894]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.05-02.00.32:502][894]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.05-02.00.32:503][894]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun.MainRun up for play (max tick rate 60) at 2018.09.04-22.00.32
+[2018.09.05-02.00.32:504][894]LogWorld: Bringing up level for play took: 0.000838
+[2018.09.05-02.00.32:541][894]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun 0.28
+[2018.09.05-02.00.32:643][895]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.054666 > MaxSimulationTimeStep (0.050) for 'RunCharacter_C_0', movement 'Walking'
+[2018.09.05-02.00.39:093][282]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.05-02.00.39:111][282]LogSlate: Window 'RunR Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.05-02.00.39:153][282]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.05-02.00.39:218][283]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2018.09.05-02.01.58:196][372]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/MainRun' took 0.033
+[2018.09.05-02.01.58:199][372]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/BP_Item] ([1] browsable assets)...
+[2018.09.05-02.01.58:214][372]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/BP_Item.BP_Item]
+[2018.09.05-02.01.58:214][372]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/BP_Item]
+[2018.09.05-02.01.58:254][372]LogSavePackage: Moving '../../../../GameDev/_Projects/RunR/Saved/BP_Item_Auto4832E44234904255BCEEC4E82F4061D1B.tmp' to '../../../../GameDev/_Projects/RunR/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/BP_Item_Auto4.uasset'
+[2018.09.05-02.01.58:256][372]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Sounds/collectcoin] ([1] browsable assets)...
+[2018.09.05-02.01.58:262][372]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/ThirdPersonBP/Sounds/collectcoin.collectcoin]
+[2018.09.05-02.01.58:262][372]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Sounds/collectcoin]
+[2018.09.05-02.01.58:271][372]LogSavePackage: Moving '../../../../GameDev/_Projects/RunR/Saved/collectcoin_Auto4BD7B34AB49CA027EEAD4D7B49797F1D2.tmp' to '../../../../GameDev/_Projects/RunR/Saved/Autosaves/Game/ThirdPersonBP/Sounds/collectcoin_Auto4.uasset'
+[2018.09.05-02.01.58:273][372]LogFileHelpers: Auto-saving content packages took 0.076
+[2018.09.05-02.02.48:965][737]LogMetaData: Removing '/Game/ThirdPersonBP/UMG/RunHUD.SKEL_RunHUD_C' ref from Metadata '/Game/ThirdPersonBP/UMG/NewWidgetBlueprint.PackageMetaData'
+[2018.09.05-02.02.48:965][737]LogMetaData: Removing '/Game/ThirdPersonBP/UMG/RunHUD.RunHUD_C' ref from Metadata '/Game/ThirdPersonBP/UMG/NewWidgetBlueprint.PackageMetaData'
+[2018.09.05-02.02.48:965][737]LogMetaData: Removing '/Game/ThirdPersonBP/UMG/RunHUD.RunHUD:EventGraph.K2Node_Event_0' ref from Metadata '/Game/ThirdPersonBP/UMG/NewWidgetBlueprint.PackageMetaData'
+[2018.09.05-02.02.48:965][737]LogMetaData: Removing '/Game/ThirdPersonBP/UMG/RunHUD.RunHUD:EventGraph.K2Node_Event_1' ref from Metadata '/Game/ThirdPersonBP/UMG/NewWidgetBlueprint.PackageMetaData'
+[2018.09.05-02.02.48:965][737]LogMetaData: Removing '/Game/ThirdPersonBP/UMG/RunHUD.RunHUD:EventGraph.K2Node_Event_2' ref from Metadata '/Game/ThirdPersonBP/UMG/NewWidgetBlueprint.PackageMetaData'
+[2018.09.05-02.02.48:993][737]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/UMG/RunHUD" FILE="../../../../GameDev/_Projects/RunR/Content/ThirdPersonBP/UMG/RunHUD.uasset" SILENT=true
+[2018.09.05-02.02.49:006][737]LogSavePackage: Moving '../../../../GameDev/_Projects/RunR/Saved/RunHUD9C7DA4514D535EC4FDD11688EE7BABFC.tmp' to '../../../../GameDev/_Projects/RunR/Content/ThirdPersonBP/UMG/RunHUD.uasset'
+[2018.09.05-02.02.56:931][985]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/ThirdPersonBP/UMG/RunHUD.RunHUD
+[2018.09.05-02.03.40:522][386]LogSlate: Took 0.061796 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2018.09.05-02.08.59:803][324]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/UMG/RunHUD" FILE="../../../../GameDev/_Projects/RunR/Content/ThirdPersonBP/UMG/RunHUD.uasset" SILENT=true
+[2018.09.05-02.08.59:831][324]LogSavePackage: Moving '../../../../GameDev/_Projects/RunR/Saved/RunHUDC37558294A57B2B5E5F396ADF73ED796.tmp' to '../../../../GameDev/_Projects/RunR/Content/ThirdPersonBP/UMG/RunHUD.uasset'
+[2018.09.05-02.09.17:531][374]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/UMG/RunHUD" FILE="../../../../GameDev/_Projects/RunR/Content/ThirdPersonBP/UMG/RunHUD.uasset" SILENT=true
+[2018.09.05-02.09.17:547][374]LogSavePackage: Moving '../../../../GameDev/_Projects/RunR/Saved/RunHUD4008196541D074B2B378ABB26963F3A8.tmp' to '../../../../GameDev/_Projects/RunR/Content/ThirdPersonBP/UMG/RunHUD.uasset'
+[2018.09.05-02.09.20:436][535]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/RunCharacter" FILE="../../../../GameDev/_Projects/RunR/Content/ThirdPersonBP/Blueprints/RunCharacter.uasset" SILENT=true
+[2018.09.05-02.09.20:547][535]LogSavePackage: Moving '../../../../GameDev/_Projects/RunR/Saved/RunCharacterA15973F9448657ADD5F4F4986F0E4D53.tmp' to '../../../../GameDev/_Projects/RunR/Content/ThirdPersonBP/Blueprints/RunCharacter.uasset'
+[2018.09.05-02.09.20:579][535]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/BP_FloorTile" FILE="../../../../GameDev/_Projects/RunR/Content/ThirdPersonBP/Blueprints/BP_FloorTile.uasset" SILENT=true
+[2018.09.05-02.09.20:647][535]LogSavePackage: Moving '../../../../GameDev/_Projects/RunR/Saved/BP_FloorTile8D31DB5A4BF572015F0419B41A4B34EB.tmp' to '../../../../GameDev/_Projects/RunR/Content/ThirdPersonBP/Blueprints/BP_FloorTile.uasset'
+[2018.09.05-02.09.20:676][535]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/BP_Item" FILE="../../../../GameDev/_Projects/RunR/Content/ThirdPersonBP/Blueprints/BP_Item.uasset" SILENT=true
+[2018.09.05-02.09.20:725][535]LogSavePackage: Moving '../../../../GameDev/_Projects/RunR/Saved/BP_ItemA6968896496AAC39B21BF29516995C1D.tmp' to '../../../../GameDev/_Projects/RunR/Content/ThirdPersonBP/Blueprints/BP_Item.uasset'
+[2018.09.05-02.09.20:736][535]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Sounds/collectcoin" FILE="../../../../GameDev/_Projects/RunR/Content/ThirdPersonBP/Sounds/collectcoin.uasset" SILENT=true
+[2018.09.05-02.09.20:747][535]LogSavePackage: Moving '../../../../GameDev/_Projects/RunR/Saved/collectcoinF0D8D2DC4895324291885BAA6D500FD0.tmp' to '../../../../GameDev/_Projects/RunR/Content/ThirdPersonBP/Sounds/collectcoin.uasset'
+[2018.09.05-02.09.21:341][569]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.05-02.09.21:374][569]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.09.05-02.09.21:403][569]LogPlayLevel: [PlayLevel] Compiling RunCharacter before play...
+[2018.09.05-02.09.21:575][569]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_341.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.05-02.09.21:575][569]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_340.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.05-02.09.21:575][569]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_345.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.05-02.09.21:576][569]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_343.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.05-02.09.21:576][569]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_342.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.05-02.09.21:576][569]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_344.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.05-02.09.21:608][569]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_91.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.05-02.09.21:608][569]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_88.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.05-02.09.21:608][569]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_93.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.05-02.09.21:608][569]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_89.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.05-02.09.21:608][569]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_90.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.05-02.09.21:608][569]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_92.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.05-02.09.21:635][569]LogPlayLevel: [PlayLevel] Compiling BP_FloorTile before play...
+[2018.09.05-02.09.21:833][569]LogPlayLevel: [PlayLevel] Compiling BP_Item before play...
+[2018.09.05-02.09.21:989][569]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_368.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.05-02.09.21:989][569]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_365.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.05-02.09.21:989][569]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_364.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.05-02.09.21:989][569]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_367.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.05-02.09.21:989][569]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_369.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.05-02.09.21:989][569]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_366.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.05-02.09.21:999][569]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_377.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.05-02.09.21:999][569]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_376.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.05-02.09.21:999][569]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_381.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.05-02.09.21:999][569]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_380.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.05-02.09.21:999][569]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_378.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.05-02.09.21:999][569]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_Item_C_CHILDACTOR_379.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.05-02.09.22:003][569]LogPlayLevel: [PlayLevel] Compiling RunHUD before play...
+[2018.09.05-02.09.22:224][569]LogPlayLevel: PlayLevel: Blueprint regeneration took 849 ms (4 blueprints)
+[2018.09.05-02.09.22:224][569]PIE: New page: PIE session: MainRun (Sep 4, 2018, 6:09:22 PM)
+[2018.09.05-02.09.22:224][569]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun
+[2018.09.05-02.09.22:225][569]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002007s)
+[2018.09.05-02.09.22:226][569]LogAIModule: Creating AISystem for world MainRun
+[2018.09.05-02.09.22:226][569]LogPlayLevel: PIE: World Init took: (0.000831s)
+[2018.09.05-02.09.22:226][569]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MainRun.MainRun to /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun.MainRun (0.003014s)
+[2018.09.05-02.09.22:271][569]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.05-02.09.22:340][569]LogInit: FAudioDevice initialized.
+[2018.09.05-02.09.22:376][569]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.05-02.09.22:377][569]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun.MainRun up for play (max tick rate 60) at 2018.09.04-22.09.22
+[2018.09.05-02.09.22:377][569]LogWorld: Bringing up level for play took: 0.000620
+[2018.09.05-02.09.22:409][569]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun 0.148
+[2018.09.05-02.09.22:483][570]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.073853 > MaxSimulationTimeStep (0.050) for 'RunCharacter_C_0', movement 'Walking'
+[2018.09.05-02.09.24:817][710]Cmd: RestartLevel
+[2018.09.05-02.09.24:832][711]LogNet: Browse: /Game/ThirdPersonBP/Maps/MainRun?restart
+[2018.09.05-02.09.24:833][711]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/MainRun
+[2018.09.05-02.09.24:876][711]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun
+[2018.09.05-02.09.24:878][711]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001870s)
+[2018.09.05-02.09.24:879][711]LogAIModule: Creating AISystem for world MainRun
+[2018.09.05-02.09.24:879][711]LogPlayLevel: PIE: World Init took: (0.000911s)
+[2018.09.05-02.09.24:879][711]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MainRun.MainRun to /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun.MainRun (0.002984s)
+[2018.09.05-02.09.24:879][711]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.05-02.09.24:880][711]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun.MainRun up for play (max tick rate 60) at 2018.09.04-22.09.24
+[2018.09.05-02.09.24:880][711]LogWorld: Bringing up level for play took: 0.000625
+[2018.09.05-02.09.24:899][711]LogLoad: Took 0.065941 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun)
+[2018.09.05-02.09.32:536][168]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.05-02.09.32:577][168]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.05-02.09.32:614][168]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.05-02.09.32:636][169]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2018.09.05-02.09.36:730][411]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.05-02.40.18:100][780]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.09.05-02.40.25:942][915]LogHttp: Warning: 00000268F9348A40: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.09.05-02.40.25:942][915]LogHttp: Warning: 00000268F9348A40: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x26801ebffa0 [can pipeline])
+[2018.09.05-02.40.25:943][915]LogHttp: Warning: 00000268F9348A40: libcurl info message cache 1 (Re-using existing connection! (#97) with host datarouter.ol.epicgames.com)
+[2018.09.05-02.40.25:943][915]LogHttp: Warning: 00000268F9348A40: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.2.147.45) port 443 (#97))
+[2018.09.05-02.40.25:943][915]LogHttp: Warning: 00000268F9348A40: libcurl info message cache 3 (upload completely sent off: 11337 out of 11337 bytes)
+[2018.09.05-02.40.25:943][915]LogHttp: Warning: 00000268F9348A40: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2018.09.05-02.40.25:943][915]LogHttp: Warning: 00000268F9348A40: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2018.09.05-02.40.25:943][915]LogHttp: Warning: 00000268F9348A40: libcurl info message cache 6 (Closing connection 97)
+[2018.09.05-02.40.25:943][915]LogHttp: Warning: 00000268F9348A40: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF76D5B2D-4801-843B-582F-F6880EDF747A%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.1-4233996%2B%2B%2BUE4%2BRelease-4.20&UserID=e81f7c6a4e20a4c2aba780be7368b7e6%7C69031fb1a45c4ec189825f9d534408ca%7Cd2e6f851-8dc9-42b7-8ff2-f3ab4f006ddd&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2018.09.05-02.40.25:943][915]LogHttp: Warning: 00000268F9348A40: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.09.05-02.40.25:943][915]LogHttp: Warning: 00000268F9348A40: libcurl info message cache 9 (Closing connection 98)
+[2018.09.05-02.41.29:307][485]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.05-02.41.29:346][485]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.05-02.41.29:347][485]PIE: New page: PIE session: MainRun (Sep 4, 2018, 6:41:29 PM)
+[2018.09.05-02.41.29:347][485]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun
+[2018.09.05-02.41.29:349][485]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002200s)
+[2018.09.05-02.41.29:350][485]LogAIModule: Creating AISystem for world MainRun
+[2018.09.05-02.41.29:350][485]LogPlayLevel: PIE: World Init took: (0.000774s)
+[2018.09.05-02.41.29:350][485]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MainRun.MainRun to /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun.MainRun (0.003113s)
+[2018.09.05-02.41.29:401][485]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.05-02.41.29:471][485]LogInit: FAudioDevice initialized.
+[2018.09.05-02.41.29:507][485]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.05-02.41.29:509][485]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun.MainRun up for play (max tick rate 60) at 2018.09.04-22.41.29
+[2018.09.05-02.41.29:509][485]LogWorld: Bringing up level for play took: 0.000653
+[2018.09.05-02.41.29:539][485]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun -0.715
+[2018.09.05-02.41.48:319][ 47]Cmd: RestartLevel
+[2018.09.05-02.41.48:353][ 48]LogNet: Browse: /Game/ThirdPersonBP/Maps/MainRun?restart
+[2018.09.05-02.41.48:385][ 48]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/MainRun
+[2018.09.05-02.41.48:432][ 48]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun
+[2018.09.05-02.41.48:434][ 48]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001897s)
+[2018.09.05-02.41.48:435][ 48]LogAIModule: Creating AISystem for world MainRun
+[2018.09.05-02.41.48:436][ 48]LogPlayLevel: PIE: World Init took: (0.001572s)
+[2018.09.05-02.41.48:436][ 48]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MainRun.MainRun to /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun.MainRun (0.003673s)
+[2018.09.05-02.41.48:436][ 48]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.05-02.41.48:437][ 48]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun.MainRun up for play (max tick rate 60) at 2018.09.04-22.41.48
+[2018.09.05-02.41.48:438][ 48]LogWorld: Bringing up level for play took: 0.000770
+[2018.09.05-02.41.48:459][ 48]LogLoad: Took 0.074510 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun)
+[2018.09.05-02.41.51:094][128]Cmd: RestartLevel
+[2018.09.05-02.41.51:125][129]LogNet: Browse: /Game/ThirdPersonBP/Maps/MainRun?restart
+[2018.09.05-02.41.51:159][129]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/MainRun
+[2018.09.05-02.41.51:205][129]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun
+[2018.09.05-02.41.51:207][129]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002305s)
+[2018.09.05-02.41.51:208][129]LogAIModule: Creating AISystem for world MainRun
+[2018.09.05-02.41.51:208][129]LogPlayLevel: PIE: World Init took: (0.000880s)
+[2018.09.05-02.41.51:208][129]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MainRun.MainRun to /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun.MainRun (0.003397s)
+[2018.09.05-02.41.51:208][129]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.05-02.41.51:210][129]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun.MainRun up for play (max tick rate 60) at 2018.09.04-22.41.51
+[2018.09.05-02.41.51:211][129]LogWorld: Bringing up level for play took: 0.000872
+[2018.09.05-02.41.51:242][129]LogLoad: Took 0.083459 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun)
+[2018.09.05-02.42.14:361][824]Cmd: RestartLevel
+[2018.09.05-02.42.14:393][825]LogNet: Browse: /Game/ThirdPersonBP/Maps/MainRun?restart
+[2018.09.05-02.42.14:426][825]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/MainRun
+[2018.09.05-02.42.14:496][825]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun
+[2018.09.05-02.42.14:498][825]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002807s)
+[2018.09.05-02.42.14:500][825]LogAIModule: Creating AISystem for world MainRun
+[2018.09.05-02.42.14:500][825]LogPlayLevel: PIE: World Init took: (0.001073s)
+[2018.09.05-02.42.14:500][825]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MainRun.MainRun to /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun.MainRun (0.004130s)
+[2018.09.05-02.42.14:500][825]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.05-02.42.14:501][825]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun.MainRun up for play (max tick rate 60) at 2018.09.04-22.42.14
+[2018.09.05-02.42.14:502][825]LogWorld: Bringing up level for play took: 0.000740
+[2018.09.05-02.42.14:548][825]LogLoad: Took 0.122272 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun)
+[2018.09.05-02.42.41:107][623]Cmd: RestartLevel
+[2018.09.05-02.42.41:140][624]LogNet: Browse: /Game/ThirdPersonBP/Maps/MainRun?restart
+[2018.09.05-02.42.41:173][624]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/MainRun
+[2018.09.05-02.42.41:227][624]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun
+[2018.09.05-02.42.41:230][624]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002848s)
+[2018.09.05-02.42.41:231][624]LogAIModule: Creating AISystem for world MainRun
+[2018.09.05-02.42.41:231][624]LogPlayLevel: PIE: World Init took: (0.000908s)
+[2018.09.05-02.42.41:231][624]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MainRun.MainRun to /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun.MainRun (0.003991s)
+[2018.09.05-02.42.41:231][624]LogLoad: Game class is 'RunGameMode_C'
+[2018.09.05-02.42.41:233][624]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun.MainRun up for play (max tick rate 60) at 2018.09.04-22.42.41
+[2018.09.05-02.42.41:233][624]LogWorld: Bringing up level for play took: 0.000620
+[2018.09.05-02.42.41:264][624]LogLoad: Took 0.091590 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_MainRun)
+[2018.09.05-02.42.41:284][625]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.05-02.42.41:349][625]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.05-02.42.41:400][625]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.05-02.42.41:435][626]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2018.09.05-02.42.45:439][706]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.05-04.31.17:383][492]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.09.05-04.31.17:506][492]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.09.05-04.31.17:717][492]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.09.05-04.31.17:852][492]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.09.05-04.31.17:971][492]LogSlate: Window 'RunR - Unreal Editor' being destroyed
+[2018.09.05-04.31.18:331][493]Cmd: QUIT_EDITOR
+[2018.09.05-04.31.19:202][493]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.09.05-04.31.19:232][493]LogExit: Preparing to exit.

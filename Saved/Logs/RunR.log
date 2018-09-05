@@ -1,4 +1,4 @@
-﻿Log file open, 08/31/18 19:55:52
+﻿Log file open, 09/05/18 18:43:28
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: RunR
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.295512
+LogStats: Stats thread started at 0.290506
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -93,7 +93,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.475s to configure plugins.
+LogStreaming: Display: Took  0.959s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -147,470 +147,212 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.000s to delete old logs.
+LogStreaming: Display: Took  0.077s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.08.31-23.55.53:641][  0]LogInit: Selected Device Profile: [Windows]
-[2018.08.31-23.55.53:641][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.08.31-23.55.53:654][  0]LogHAL: Display: Platform has ~ 16 GB [17046728704 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2018.08.31-23.55.53:654][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2018.08.31-23.55.53:654][  0]LogInit: Going up to parent DeviceProfile []
-[2018.08.31-23.55.53:654][  0]LogInit: Computer: DESKTOP-Q614RLO
-[2018.08.31-23.55.53:654][  0]LogInit: User: maloo
-[2018.08.31-23.55.53:654][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.08.31-23.55.53:654][  0]LogInit: High frequency timer resolution =2.742192 MHz
-[2018.08.31-23.55.53:655][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.08.31-23.55.53:655][  0]LogMemory: Platform Memory Stats for Windows
-[2018.08.31-23.55.53:655][  0]LogMemory: Process Physical Memory: 100.26 MB used, 100.26 MB peak
-[2018.08.31-23.55.53:655][  0]LogMemory: Process Virtual Memory: 89.64 MB used, 89.64 MB peak
-[2018.08.31-23.55.53:655][  0]LogMemory: Physical Memory: 8172.38 MB used,  8084.65 MB free, 16257.03 MB total
-[2018.08.31-23.55.53:655][  0]LogMemory: Virtual Memory: 4643.35 MB used,  8084.65 MB free, 134217728.00 MB total
-[2018.08.31-23.55.54:047][  0]LogInit: Using OS detected language (en-US).
-[2018.08.31-23.55.54:047][  0]LogInit: Using OS detected locale (en-CA).
-[2018.08.31-23.55.54:048][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.08.31-23.55.54:468][  0]LogStreaming: Display: Took  0.420s to InitEngineTextLocalization.
-[2018.08.31-23.55.54:468][  0]LogInit: Setting process to per monitor DPI aware
-[2018.08.31-23.55.54:532][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.08.31-23.55.54:532][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.08.31-23.55.54:910][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.08.31-23.55.54:911][  0]LogD3D11RHI: D3D11 adapters:
-[2018.08.31-23.55.55:002][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2018.08.31-23.55.55:002][  0]LogD3D11RHI:       8081/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.08.31-23.55.55:029][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2018.08.31-23.55.55:029][  0]LogD3D11RHI:       128/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2018.08.31-23.55.55:031][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.08.31-23.55.55:031][  0]LogD3D11RHI:       0/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.08.31-23.55.55:031][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.08.31-23.55.55:041][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.08.31-23.55.55:041][  0]LogD3D11RHI:     GPU DeviceId: 0x1be1 (for the marketing name, search the web for "GPU Device Id")
-[2018.08.31-23.55.55:041][  0]LogWindows: EnumDisplayDevices:
-[2018.08.31-23.55.55:041][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2018.08.31-23.55.55:042][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.08.31-23.55.55:042][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.08.31-23.55.55:042][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.08.31-23.55.55:042][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.08.31-23.55.55:043][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.08.31-23.55.55:043][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.08.31-23.55.55:043][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2018.08.31-23.55.55:043][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2018.08.31-23.55.55:043][  0]LogD3D11RHI:   Driver Version: 399.07 (internal:24.21.13.9907, unified:399.07)
-[2018.08.31-23.55.55:043][  0]LogD3D11RHI:      Driver Date: 8-21-2018
-[2018.08.31-23.55.55:043][  0]LogRHI: Texture pool is 5656 MB (70% of 8081 MB)
-[2018.08.31-23.55.55:095][  0]LogD3D11RHI: Async texture creation enabled
-[2018.08.31-23.55.55:140][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.08.31-23.55.55:187][  0]LogShaderCompilers: Guid format shader working directory is 18 characters bigger than the processId version (../../../../GameDev/UE4/RunR/Intermediate/Shaders/WorkingDirectory/6032/).
-[2018.08.31-23.55.55:188][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/maloo/AppData/Local/Temp/UnrealShaderWorkingDir/E4FCB0AA4F6E903D65C1A88E801346AC/'.
-[2018.08.31-23.55.55:530][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.08.31-23.55.55:544][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.08.31-23.55.55:558][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.08.31-23.55.55:573][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.08.31-23.55.55:587][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.08.31-23.55.55:602][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.08.31-23.55.55:616][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.08.31-23.55.55:632][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.08.31-23.55.55:639][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.08.31-23.55.55:724][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.31-23.55.55:724][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.31-23.55.55:724][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.31-23.55.55:724][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.31-23.55.55:724][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.31-23.55.55:724][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.31-23.55.55:724][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.31-23.55.55:724][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.31-23.55.55:724][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.31-23.55.55:724][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.31-23.55.55:724][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.31-23.55.55:724][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.31-23.55.55:724][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.31-23.55.55:724][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.31-23.55.55:724][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.31-23.55.55:724][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.31-23.55.55:724][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.31-23.55.55:724][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.31-23.55.55:726][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.08.31-23.55.55:793][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.08.31-23.55.55:793][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.08.31-23.55.55:819][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.08.31-23.55.55:819][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.08.31-23.55.55:836][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.08.31-23.55.55:851][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.08.31-23.55.55:865][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.08.31-23.55.55:883][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.08.31-23.55.55:892][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2018.08.31-23.55.55:892][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.08.31-23.55.55:963][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.08.31-23.55.55:963][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.08.31-23.55.55:963][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.08.31-23.55.56:864][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.08.31-23.55.56:932][  0]LogDerivedDataCache: Loaded boot cache 0.07s 71MB C:/Users/maloo/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.08.31-23.55.56:933][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/maloo/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2018.08.31-23.55.56:933][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../GameDev/UE4/RunR/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.08.31-23.55.56:933][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.08.31-23.55.56:933][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../GameDev/UE4/RunR/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.08.31-23.55.56:933][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.08.31-23.55.56:948][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.08.31-23.55.56:961][  0]LogDerivedDataCache: Using Local data cache path C:/Users/maloo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.08.31-23.55.56:961][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.08.31-23.55.56:961][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.08.31-23.55.56:982][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.08.31-23.55.56:983][  0]LogSlate: Using FreeType 2.6.0
-[2018.08.31-23.55.56:985][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.08.31-23.55.57:077][  0]LogAssetRegistry: FAssetRegistry took 0.0282 seconds to start up
-[2018.08.31-23.55.57:467][  0]LogInit: Selected Device Profile: [Windows]
-[2018.08.31-23.55.57:620][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.08.31-23.55.57:624][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.08.31-23.55.57:624][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2018.08.31-23.55.57:624][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.08.31-23.55.57:624][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.08.31-23.55.57:646][  0]LogNetVersion: RunR 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3769191507)
-[2018.08.31-23.55.58:408][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.182496 seconds
-[2018.08.31-23.55.58:415][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2018.08.31-23.55.58:415][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
-[2018.08.31-23.55.58:415][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.08.31-23.55.59:526][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.08.31-23.55.59:554][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.08.31-23.55.59:730][  0]SourceControl: Source control is disabled
-[2018.08.31-23.55.59:730][  0]SourceControl: Source control is disabled
-[2018.08.31-23.55.59:732][  0]SourceControl: Source control is disabled
-[2018.08.31-23.55.59:733][  0]SourceControl: Source control is disabled
-[2018.08.31-23.55.59:932][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.08.31-23.56.00:013][  0]LogOcInput: OculusInput pre-init called
-[2018.08.31-23.56.00:083][  0]LogEngine: Initializing Engine...
-[2018.08.31-23.56.00:084][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.08.31-23.56.00:085][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.08.31-23.56.00:085][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.08.31-23.56.00:085][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.08.31-23.56.00:085][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.08.31-23.56.00:331][  0]LogInit: Initializing FReadOnlyCVARCache
-[2018.08.31-23.56.00:343][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.08.31-23.56.00:403][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2018.08.31-23.56.00:902][  0]LogInit: FAudioDevice initialized.
-[2018.08.31-23.56.00:903][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2018.08.31-23.56.00:988][  0]LogDerivedDataCache: Saved boot cache 0.08s 71MB C:/Users/maloo/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.08.31-23.56.00:992][  0]LogInit: Texture streaming: Enabled
-[2018.08.31-23.56.01:005][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.08.31-23.56.01:021][  0]LogInit: Transaction tracking system initialized
-[2018.08.31-23.56.01:039][  0]BlueprintLog: New page: Editor Load
-[2018.08.31-23.56.01:211][  0]LocalizationService: Localization service is disabled
-[2018.08.31-23.56.01:538][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.08.31-23.56.01:538][  0]LogCook: Display: Mobile HDR setting 1
-[2018.08.31-23.56.01:538][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.08.31-23.56.01:538][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.08.31-23.56.01:538][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.08.31-23.56.01:539][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.08.31-23.56.01:539][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.08.31-23.56.01:726][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/UE4/RunR/Content/' took 0.01s
-[2018.08.31-23.56.01:726][  0]SourceControl: Source control is disabled
-[2018.08.31-23.56.01:807][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 D:/UE_4.20/FeaturePacks/StarterContent.upack)
-[2018.08.31-23.56.01:900][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
-[2018.08.31-23.56.01:966][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Architecture/Floor_400x400.uasset"
-[2018.08.31-23.56.01:993][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Architecture/Pillar_50x500.uasset"
-[2018.08.31-23.56.02:025][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
-[2018.08.31-23.56.02:045][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Architecture/Wall_400x200.uasset"
-[2018.08.31-23.56.02:055][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Architecture/Wall_400x300.uasset"
-[2018.08.31-23.56.02:090][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Architecture/Wall_400x400.uasset"
-[2018.08.31-23.56.02:126][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Architecture/Wall_500x500.uasset"
-[2018.08.31-23.56.02:137][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
-[2018.08.31-23.56.02:163][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
-[2018.08.31-23.56.02:177][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
-[2018.08.31-23.56.02:353][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
-[2018.08.31-23.56.02:376][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Audio/Collapse01.uasset"
-[2018.08.31-23.56.02:430][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Audio/Collapse02.uasset"
-[2018.08.31-23.56.02:463][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Audio/Collapse_Cue.uasset"
-[2018.08.31-23.56.02:522][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Audio/Explosion01.uasset"
-[2018.08.31-23.56.02:565][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Audio/Explosion02.uasset"
-[2018.08.31-23.56.02:615][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Audio/Explosion_Cue.uasset"
-[2018.08.31-23.56.02:656][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Audio/Fire01.uasset"
-[2018.08.31-23.56.02:664][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Audio/Fire01_Cue.uasset"
-[2018.08.31-23.56.02:694][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Audio/Fire_Sparks01.uasset"
-[2018.08.31-23.56.02:701][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
-[2018.08.31-23.56.02:747][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Audio/Light01.uasset"
-[2018.08.31-23.56.02:755][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Audio/Light01_Cue.uasset"
-[2018.08.31-23.56.02:797][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Audio/Light02.uasset"
-[2018.08.31-23.56.02:805][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Audio/Light02_Cue.uasset"
-[2018.08.31-23.56.02:841][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Audio/Smoke01.uasset"
-[2018.08.31-23.56.02:848][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Audio/Smoke01_Cue.uasset"
-[2018.08.31-23.56.02:859][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
-[2018.08.31-23.56.03:004][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Audio/Starter_Birds01.uasset"
-[2018.08.31-23.56.03:121][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Audio/Starter_Music01.uasset"
-[2018.08.31-23.56.03:149][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
-[2018.08.31-23.56.03:216][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Audio/Starter_Wind05.uasset"
-[2018.08.31-23.56.03:354][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Audio/Starter_Wind06.uasset"
-[2018.08.31-23.56.03:417][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Audio/Steam01.uasset"
-[2018.08.31-23.56.03:443][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Audio/Steam01_Cue.uasset"
-[2018.08.31-23.56.03:465][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
-[2018.08.31-23.56.03:482][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
-[2018.08.31-23.56.03:496][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
-[2018.08.31-23.56.03:525][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
-[2018.08.31-23.56.03:597][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
-[2018.08.31-23.56.03:617][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
-[2018.08.31-23.56.03:630][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
-[2018.08.31-23.56.03:672][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
-[2018.08.31-23.56.03:888][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
-[2018.08.31-23.56.04:011][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
-[2018.08.31-23.56.04:037][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
-[2018.08.31-23.56.04:063][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
-[2018.08.31-23.56.04:080][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
-[2018.08.31-23.56.04:124][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
-[2018.08.31-23.56.04:172][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
-[2018.08.31-23.56.04:178][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
-[2018.08.31-23.56.08:099][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
-[2018.08.31-23.56.08:175][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Maps/Advanced_Lighting.umap"
-[2018.08.31-23.56.08:257][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
-[2018.08.31-23.56.08:311][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Maps/Minimal_Default.umap"
-[2018.08.31-23.56.08:376][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
-[2018.08.31-23.56.08:418][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Maps/StarterMap.umap"
-[2018.08.31-23.56.09:341][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
-[2018.08.31-23.56.09:604][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Materials/M_AssetPlatform.uasset"
-[2018.08.31-23.56.09:627][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Materials/M_Basic_Floor.uasset"
-[2018.08.31-23.56.09:653][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Materials/M_Basic_Wall.uasset"
-[2018.08.31-23.56.09:676][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
-[2018.08.31-23.56.09:692][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
-[2018.08.31-23.56.09:758][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
-[2018.08.31-23.56.09:773][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
-[2018.08.31-23.56.09:795][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
-[2018.08.31-23.56.09:805][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
-[2018.08.31-23.56.09:826][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
-[2018.08.31-23.56.09:868][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
-[2018.08.31-23.56.09:910][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
-[2018.08.31-23.56.09:933][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
-[2018.08.31-23.56.09:982][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
-[2018.08.31-23.56.09:996][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
-[2018.08.31-23.56.10:007][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
-[2018.08.31-23.56.10:046][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
-[2018.08.31-23.56.10:075][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Materials/M_Glass.uasset"
-[2018.08.31-23.56.10:116][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Materials/M_Ground_Grass.uasset"
-[2018.08.31-23.56.10:140][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
-[2018.08.31-23.56.10:151][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Materials/M_Ground_Moss.uasset"
-[2018.08.31-23.56.10:170][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
-[2018.08.31-23.56.10:212][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
-[2018.08.31-23.56.10:244][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
-[2018.08.31-23.56.10:263][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Materials/M_Metal_Copper.uasset"
-[2018.08.31-23.56.10:312][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Materials/M_Metal_Gold.uasset"
-[2018.08.31-23.56.10:356][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Materials/M_Metal_Rust.uasset"
-[2018.08.31-23.56.10:377][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Materials/M_Metal_Steel.uasset"
-[2018.08.31-23.56.10:472][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
-[2018.08.31-23.56.10:570][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
-[2018.08.31-23.56.10:992][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
-[2018.08.31-23.56.11:016][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Materials/M_Rock_Slate.uasset"
-[2018.08.31-23.56.11:040][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
-[2018.08.31-23.56.11:084][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
-[2018.08.31-23.56.11:094][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
-[2018.08.31-23.56.11:111][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Materials/M_Tech_Panel.uasset"
-[2018.08.31-23.56.11:134][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Materials/M_Water_Lake.uasset"
-[2018.08.31-23.56.11:160][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Materials/M_Water_Ocean.uasset"
-[2018.08.31-23.56.11:180][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
-[2018.08.31-23.56.11:257][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
-[2018.08.31-23.56.11:305][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Materials/M_Wood_Oak.uasset"
-[2018.08.31-23.56.11:317][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Materials/M_Wood_Pine.uasset"
-[2018.08.31-23.56.11:342][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
-[2018.08.31-23.56.11:393][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
-[2018.08.31-23.56.11:426][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Particles/P_Explosion.uasset"
-[2018.08.31-23.56.11:466][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Particles/P_Fire.uasset"
-[2018.08.31-23.56.11:493][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Particles/P_Smoke.uasset"
-[2018.08.31-23.56.11:523][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Particles/P_Sparks.uasset"
-[2018.08.31-23.56.11:552][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Particles/P_Steam_Lit.uasset"
-[2018.08.31-23.56.11:588][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Particles/Materials/M_Burst.uasset"
-[2018.08.31-23.56.11:616][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
-[2018.08.31-23.56.11:630][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
-[2018.08.31-23.56.11:649][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
-[2018.08.31-23.56.11:706][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
-[2018.08.31-23.56.11:730][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
-[2018.08.31-23.56.11:820][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
-[2018.08.31-23.56.12:000][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
-[2018.08.31-23.56.12:171][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
-[2018.08.31-23.56.12:205][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Particles/Materials/M_Spark.uasset"
-[2018.08.31-23.56.12:278][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Props/MaterialSphere.uasset"
-[2018.08.31-23.56.12:309][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Props/SM_Bush.uasset"
-[2018.08.31-23.56.12:329][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Props/SM_Chair.uasset"
-[2018.08.31-23.56.12:347][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Props/SM_CornerFrame.uasset"
-[2018.08.31-23.56.12:368][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Props/SM_Couch.uasset"
-[2018.08.31-23.56.12:383][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Props/SM_Door.uasset"
-[2018.08.31-23.56.12:425][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Props/SM_DoorFrame.uasset"
-[2018.08.31-23.56.12:461][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Props/SM_GlassWindow.uasset"
-[2018.08.31-23.56.12:508][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
-[2018.08.31-23.56.12:547][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
-[2018.08.31-23.56.12:641][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
-[2018.08.31-23.56.12:663][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Props/SM_PillarFrame.uasset"
-[2018.08.31-23.56.12:696][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Props/SM_PillarFrame300.uasset"
-[2018.08.31-23.56.12:721][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Props/SM_Rock.uasset"
-[2018.08.31-23.56.12:741][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Props/SM_Shelf.uasset"
-[2018.08.31-23.56.12:752][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Props/SM_Stairs.uasset"
-[2018.08.31-23.56.12:785][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Props/SM_Statue.uasset"
-[2018.08.31-23.56.12:921][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Props/SM_TableRound.uasset"
-[2018.08.31-23.56.12:942][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Props/SM_WindowFrame.uasset"
-[2018.08.31-23.56.12:963][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Props/Materials/M_Bush.uasset"
-[2018.08.31-23.56.12:986][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Props/Materials/M_Chair.uasset"
-[2018.08.31-23.56.13:001][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Props/Materials/M_Door.uasset"
-[2018.08.31-23.56.13:014][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Props/Materials/M_Frame.uasset"
-[2018.08.31-23.56.13:028][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Props/Materials/M_Lamp.uasset"
-[2018.08.31-23.56.13:051][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
-[2018.08.31-23.56.13:106][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
-[2018.08.31-23.56.13:129][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Props/Materials/M_Rock.uasset"
-[2018.08.31-23.56.13:139][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Props/Materials/M_Shelf.uasset"
-[2018.08.31-23.56.13:150][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Props/Materials/M_Statue.uasset"
-[2018.08.31-23.56.13:236][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
-[2018.08.31-23.56.13:255][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Props/Materials/M_TableRound.uasset"
-[2018.08.31-23.56.13:294][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Shapes/Shape_Cone.uasset"
-[2018.08.31-23.56.13:376][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Shapes/Shape_Cube.uasset"
-[2018.08.31-23.56.13:419][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
-[2018.08.31-23.56.13:448][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
-[2018.08.31-23.56.13:463][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Shapes/Shape_Pipe.uasset"
-[2018.08.31-23.56.13:499][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
-[2018.08.31-23.56.13:554][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
-[2018.08.31-23.56.13:571][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Shapes/Shape_Plane.uasset"
-[2018.08.31-23.56.13:600][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
-[2018.08.31-23.56.13:637][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Shapes/Shape_Sphere.uasset"
-[2018.08.31-23.56.13:674][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Shapes/Shape_Torus.uasset"
-[2018.08.31-23.56.13:703][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Shapes/Shape_Trim.uasset"
-[2018.08.31-23.56.13:721][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
-[2018.08.31-23.56.13:734][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
-[2018.08.31-23.56.13:768][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
-[2018.08.31-23.56.13:807][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Shapes/Shape_Tube.uasset"
-[2018.08.31-23.56.13:842][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
-[2018.08.31-23.56.13:874][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
-[2018.08.31-23.56.13:887][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
-[2018.08.31-23.56.13:982][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
-[2018.08.31-23.56.14:106][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
-[2018.08.31-23.56.14:229][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
-[2018.08.31-23.56.14:328][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
-[2018.08.31-23.56.14:437][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
-[2018.08.31-23.56.14:595][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
-[2018.08.31-23.56.14:858][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
-[2018.08.31-23.56.14:949][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
-[2018.08.31-23.56.15:143][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
-[2018.08.31-23.56.15:221][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
-[2018.08.31-23.56.15:369][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
-[2018.08.31-23.56.15:471][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
-[2018.08.31-23.56.15:591][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
-[2018.08.31-23.56.15:617][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Burst_M.uasset"
-[2018.08.31-23.56.15:672][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Bush_D.uasset"
-[2018.08.31-23.56.15:704][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Bush_N.uasset"
-[2018.08.31-23.56.15:888][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
-[2018.08.31-23.56.16:145][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
-[2018.08.31-23.56.16:186][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Chair_M.uasset"
-[2018.08.31-23.56.16:244][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Chair_N.uasset"
-[2018.08.31-23.56.16:258][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
-[2018.08.31-23.56.16:402][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
-[2018.08.31-23.56.16:450][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
-[2018.08.31-23.56.16:585][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
-[2018.08.31-23.56.16:630][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
-[2018.08.31-23.56.16:683][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
-[2018.08.31-23.56.16:877][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
-[2018.08.31-23.56.17:023][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
-[2018.08.31-23.56.17:178][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
-[2018.08.31-23.56.17:572][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
-[2018.08.31-23.56.17:824][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
-[2018.08.31-23.56.18:073][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
-[2018.08.31-23.56.18:223][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
-[2018.08.31-23.56.18:313][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
-[2018.08.31-23.56.18:427][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
-[2018.08.31-23.56.18:549][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
-[2018.08.31-23.56.18:710][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
-[2018.08.31-23.56.19:015][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
-[2018.08.31-23.56.19:272][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
-[2018.08.31-23.56.19:381][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Door_M.uasset"
-[2018.08.31-23.56.19:440][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Door_N.uasset"
-[2018.08.31-23.56.19:530][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
-[2018.08.31-23.56.19:945][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
-[2018.08.31-23.56.20:090][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
-[2018.08.31-23.56.20:218][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
-[2018.08.31-23.56.20:455][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Frame_M.uasset"
-[2018.08.31-23.56.20:570][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Frame_N.uasset"
-[2018.08.31-23.56.20:598][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Gradinet_01.uasset"
-[2018.08.31-23.56.20:736][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
-[2018.08.31-23.56.20:894][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
-[2018.08.31-23.56.21:078][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
-[2018.08.31-23.56.21:171][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
-[2018.08.31-23.56.21:385][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
-[2018.08.31-23.56.21:577][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
-[2018.08.31-23.56.21:769][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Lamp_M.uasset"
-[2018.08.31-23.56.21:980][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Lamp_N.uasset"
-[2018.08.31-23.56.22:128][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_MacroVariation.uasset"
-[2018.08.31-23.56.22:295][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
-[2018.08.31-23.56.22:442][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
-[2018.08.31-23.56.22:542][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
-[2018.08.31-23.56.22:640][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
-[2018.08.31-23.56.23:224][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
-[2018.08.31-23.56.23:453][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
-[2018.08.31-23.56.23:520][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
-[2018.08.31-23.56.23:589][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
-[2018.08.31-23.56.23:751][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
-[2018.08.31-23.56.23:847][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_RockMesh_M.uasset"
-[2018.08.31-23.56.23:939][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_RockMesh_N.uasset"
-[2018.08.31-23.56.24:109][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
-[2018.08.31-23.56.24:410][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
-[2018.08.31-23.56.24:684][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
-[2018.08.31-23.56.24:921][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
-[2018.08.31-23.56.25:035][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
-[2018.08.31-23.56.25:197][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
-[2018.08.31-23.56.25:327][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
-[2018.08.31-23.56.25:429][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
-[2018.08.31-23.56.25:567][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Shelf_M.uasset"
-[2018.08.31-23.56.25:970][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Shelf_N.uasset"
-[2018.08.31-23.56.26:249][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
-[2018.08.31-23.56.26:380][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
-[2018.08.31-23.56.26:419][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
-[2018.08.31-23.56.26:438][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Spark_Core.uasset"
-[2018.08.31-23.56.26:477][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Statue_M.uasset"
-[2018.08.31-23.56.26:510][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Statue_N.uasset"
-[2018.08.31-23.56.26:588][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_TableRound_M.uasset"
-[2018.08.31-23.56.26:667][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_TableRound_N.uasset"
-[2018.08.31-23.56.26:728][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
-[2018.08.31-23.56.26:973][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
-[2018.08.31-23.56.27:122][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
-[2018.08.31-23.56.27:462][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
-[2018.08.31-23.56.27:557][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
-[2018.08.31-23.56.27:601][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
-[2018.08.31-23.56.27:652][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Water_M.uasset"
-[2018.08.31-23.56.27:716][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Water_N.uasset"
-[2018.08.31-23.56.27:788][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
-[2018.08.31-23.56.27:855][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
-[2018.08.31-23.56.27:906][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
-[2018.08.31-23.56.27:993][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
-[2018.08.31-23.56.28:104][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
-[2018.08.31-23.56.28:327][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
-[2018.08.31-23.56.28:452][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
-[2018.08.31-23.56.28:805][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
-[2018.08.31-23.56.28:990][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../GameDev/UE4/RunR/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
-[2018.08.31-23.56.29:410][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 10 NumSamples 1 (Frame:1).
-[2018.08.31-23.56.30:115][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Architecture/Floor_400x400" FILE="../../../../GameDev/UE4/RunR/Content/StarterContent/Architecture/Floor_400x400.uasset" SILENT=true
-[2018.08.31-23.56.30:256][  0]LogSavePackage: Moving '../../../../GameDev/UE4/RunR/Saved/Floor_400x400EA1E2F574F7014C755ABBAA389EE33B7.tmp' to '../../../../GameDev/UE4/RunR/Content/StarterContent/Architecture/Floor_400x400.uasset'
-[2018.08.31-23.56.30:305][  0]LogFeaturePack: Warning: Inserted 1 feature packs
-[2018.08.31-23.56.30:311][  0]Cmd: MAP LOAD FILE="../../../../GameDev/UE4/RunR/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.08.31-23.56.30:311][  0]LightingResults: New page: Lighting Build
-[2018.08.31-23.56.30:314][  0]MapCheck: New page: Map Check
-[2018.08.31-23.56.30:314][  0]LightingResults: New page: Lighting Build
-[2018.08.31-23.56.32:949][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2018.08.31-23.56.33:178][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.08.31-23.56.33:203][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.08.31-23.56.33:288][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 84.654ms to complete.
-[2018.08.31-23.56.33:288][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 2.977
-[2018.08.31-23.56.34:179][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.31-23.56.34:207][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.31-23.56.34:214][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.31-23.56.34:222][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.31-23.56.34:246][  0]LogCollectionManager: Loaded 0 collections in 0.000909 seconds
-[2018.08.31-23.56.34:443][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/UE4/RunR/Saved/Collections/' took 0.01s
-[2018.08.31-23.56.34:443][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/UE4/RunR/Content/Developers/maloo/Collections/' took 0.01s
-[2018.08.31-23.56.34:443][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/UE4/RunR/Content/Collections/' took 0.01s
-[2018.08.31-23.56.34:443][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.08.31-23.56.34:453][  0]LogContentBrowser: Native class hierarchy populated in 0.0100 seconds. Added 2572 classes and 603 folders.
-[2018.08.31-23.56.34:494][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.08.31-23.56.34:567][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2018.08.31-23.56.34:614][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2018.08.31-23.56.35:534][  0]LogSlate: Took 0.000327 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.08.31-23.56.35:537][  0]LogSlate: Took 0.000316 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.08.31-23.56.35:626][  0]LogSlate: Took 0.022768 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.08.31-23.56.35:977][  0]LogRenderer: Reallocating scene render targets to support 1072x496 Format 10 NumSamples 1 (Frame:1).
-[2018.08.31-23.56.36:234][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.08.31-23.56.36:235][  0]LogLoad: (Engine Initialization) Total time: 45.27 seconds
-[2018.08.31-23.56.36:235][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.08.31-23.56.36:253][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.08.31-23.56.36:530][  0]LogContentStreaming: Texture pool size now 3000 MB
-[2018.08.31-23.56.41:389][278]LogAssetRegistry: Asset discovery search completed in 44.3339 seconds
-[2018.08.31-23.56.41:391][278]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.08.31-23.56.41:392][278]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000126 seconds (updated 0 objects)
-[2018.08.31-23.56.49:277][649]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.08.31-23.56.56:275][ 67]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.08.31-23.57.00:953][195]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.05-22.43.29:329][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.05-22.43.29:329][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.09.05-22.43.29:372][  0]LogHAL: Display: Platform has ~ 16 GB [17046728704 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.09.05-22.43.29:373][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.09.05-22.43.29:373][  0]LogInit: Going up to parent DeviceProfile []
+[2018.09.05-22.43.29:373][  0]LogInit: Computer: DESKTOP-Q614RLO
+[2018.09.05-22.43.29:373][  0]LogInit: User: maloo
+[2018.09.05-22.43.29:373][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.09.05-22.43.29:373][  0]LogInit: High frequency timer resolution =2.742187 MHz
+[2018.09.05-22.43.29:373][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.09.05-22.43.29:373][  0]LogMemory: Platform Memory Stats for Windows
+[2018.09.05-22.43.29:373][  0]LogMemory: Process Physical Memory: 100.09 MB used, 100.09 MB peak
+[2018.09.05-22.43.29:373][  0]LogMemory: Process Virtual Memory: 87.50 MB used, 87.50 MB peak
+[2018.09.05-22.43.29:373][  0]LogMemory: Physical Memory: 7779.86 MB used,  8477.16 MB free, 16257.03 MB total
+[2018.09.05-22.43.29:373][  0]LogMemory: Virtual Memory: 4641.35 MB used,  8477.16 MB free, 134217728.00 MB total
+[2018.09.05-22.43.29:733][  0]LogInit: Using OS detected language (en-US).
+[2018.09.05-22.43.29:733][  0]LogInit: Using OS detected locale (en-CA).
+[2018.09.05-22.43.29:734][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.09.05-22.43.30:149][  0]LogStreaming: Display: Took  0.416s to InitEngineTextLocalization.
+[2018.09.05-22.43.30:149][  0]LogInit: Setting process to per monitor DPI aware
+[2018.09.05-22.43.30:196][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.09.05-22.43.30:196][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.09.05-22.43.30:561][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.09.05-22.43.30:561][  0]LogD3D11RHI: D3D11 adapters:
+[2018.09.05-22.43.30:626][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.09.05-22.43.30:626][  0]LogD3D11RHI:       8081/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.09.05-22.43.31:150][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2018.09.05-22.43.31:150][  0]LogD3D11RHI:       128/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.09.05-22.43.31:153][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.09.05-22.43.31:153][  0]LogD3D11RHI:       0/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.09.05-22.43.31:153][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.09.05-22.43.31:160][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.09.05-22.43.31:160][  0]LogD3D11RHI:     GPU DeviceId: 0x1be1 (for the marketing name, search the web for "GPU Device Id")
+[2018.09.05-22.43.31:160][  0]LogWindows: EnumDisplayDevices:
+[2018.09.05-22.43.31:161][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.09.05-22.43.31:161][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.09.05-22.43.31:162][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.09.05-22.43.31:162][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.09.05-22.43.31:162][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.09.05-22.43.31:163][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.09.05-22.43.31:163][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.09.05-22.43.31:163][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.09.05-22.43.31:163][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.09.05-22.43.31:163][  0]LogD3D11RHI:   Driver Version: 399.07 (internal:24.21.13.9907, unified:399.07)
+[2018.09.05-22.43.31:163][  0]LogD3D11RHI:      Driver Date: 8-21-2018
+[2018.09.05-22.43.31:163][  0]LogRHI: Texture pool is 5656 MB (70% of 8081 MB)
+[2018.09.05-22.43.31:214][  0]LogD3D11RHI: Async texture creation enabled
+[2018.09.05-22.43.31:239][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.09.05-22.43.31:286][  0]LogShaderCompilers: Guid format shader working directory is 12 characters bigger than the processId version (../../../../GameDev/_Projects/RunR/Intermediate/Shaders/WorkingDirectory/2672/).
+[2018.09.05-22.43.31:286][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/maloo/AppData/Local/Temp/UnrealShaderWorkingDir/248CC85144C099780FCD538748D13A83/'.
+[2018.09.05-22.43.31:606][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.09.05-22.43.31:623][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.09.05-22.43.31:637][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.09.05-22.43.31:651][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.09.05-22.43.31:670][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.09.05-22.43.31:685][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.09.05-22.43.31:699][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.09.05-22.43.31:712][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.09.05-22.43.31:718][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.09.05-22.43.31:805][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.05-22.43.31:805][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.05-22.43.31:805][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.05-22.43.31:805][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.05-22.43.31:805][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.05-22.43.31:805][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.05-22.43.31:805][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.05-22.43.31:805][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.05-22.43.31:805][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.05-22.43.31:805][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.05-22.43.31:805][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.05-22.43.31:805][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.05-22.43.31:805][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.05-22.43.31:805][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.05-22.43.31:805][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.05-22.43.31:805][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.05-22.43.31:805][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.05-22.43.31:805][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.05-22.43.31:806][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.09.05-22.43.31:868][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.05-22.43.31:868][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.05-22.43.31:894][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.05-22.43.31:894][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.05-22.43.31:909][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.09.05-22.43.31:923][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.09.05-22.43.31:939][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.09.05-22.43.31:955][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.09.05-22.43.31:964][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.09.05-22.43.31:964][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.09.05-22.43.32:020][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.09.05-22.43.32:020][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.09.05-22.43.32:020][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.09.05-22.43.32:849][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.09.05-22.43.32:916][  0]LogDerivedDataCache: Loaded boot cache 0.07s 71MB C:/Users/maloo/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.05-22.43.32:916][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/maloo/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.09.05-22.43.32:916][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../GameDev/_Projects/RunR/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.09.05-22.43.32:916][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.09.05-22.43.32:916][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../GameDev/_Projects/RunR/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.09.05-22.43.32:916][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.09.05-22.43.32:930][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.09.05-22.43.32:941][  0]LogDerivedDataCache: Using Local data cache path C:/Users/maloo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.09.05-22.43.32:941][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.09.05-22.43.32:941][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.09.05-22.43.32:961][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.09.05-22.43.32:962][  0]LogSlate: Using FreeType 2.6.0
+[2018.09.05-22.43.32:963][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.09.05-22.43.33:057][  0]LogAssetRegistry: FAssetRegistry took 0.0265 seconds to start up
+[2018.09.05-22.43.33:428][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.05-22.43.33:571][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.09.05-22.43.33:575][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.09.05-22.43.33:575][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.09.05-22.43.33:575][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.09.05-22.43.33:575][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.09.05-22.43.33:598][  0]LogNetVersion: RunR 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3769191507)
+[2018.09.05-22.43.34:314][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.194750 seconds
+[2018.09.05-22.43.34:323][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.09.05-22.43.34:323][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.09.05-22.43.34:323][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.09.05-22.43.35:470][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.09.05-22.43.35:485][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.09.05-22.43.35:642][  0]SourceControl: Source control is disabled
+[2018.09.05-22.43.35:642][  0]SourceControl: Source control is disabled
+[2018.09.05-22.43.35:643][  0]SourceControl: Source control is disabled
+[2018.09.05-22.43.35:645][  0]SourceControl: Source control is disabled
+[2018.09.05-22.43.35:829][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.09.05-22.43.35:895][  0]LogOcInput: OculusInput pre-init called
+[2018.09.05-22.43.35:958][  0]LogEngine: Initializing Engine...
+[2018.09.05-22.43.35:959][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.09.05-22.43.35:960][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.05-22.43.35:960][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.05-22.43.35:960][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.05-22.43.35:960][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.05-22.43.36:204][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.09.05-22.43.36:218][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.09.05-22.43.36:233][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.05-22.43.36:723][  0]LogInit: FAudioDevice initialized.
+[2018.09.05-22.43.36:723][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.09.05-22.43.36:806][  0]LogDerivedDataCache: Saved boot cache 0.08s 71MB C:/Users/maloo/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.05-22.43.36:827][  0]LogInit: Texture streaming: Enabled
+[2018.09.05-22.43.36:844][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.09.05-22.43.36:887][  0]LogInit: Transaction tracking system initialized
+[2018.09.05-22.43.36:906][  0]BlueprintLog: New page: Editor Load
+[2018.09.05-22.43.36:993][  0]LocalizationService: Localization service is disabled
+[2018.09.05-22.43.37:338][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.09.05-22.43.37:338][  0]LogCook: Display: Mobile HDR setting 1
+[2018.09.05-22.43.37:338][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.09.05-22.43.37:338][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.05-22.43.37:338][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.05-22.43.37:338][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.05-22.43.37:338][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.05-22.43.37:345][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/_Projects/RunR/Content/' took 0.04s
+[2018.09.05-22.43.37:462][  0]SourceControl: Source control is disabled
+[2018.09.05-22.43.37:463][  0]Cmd: MAP LOAD FILE="../../../../GameDev/_Projects/RunR/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.05-22.43.37:512][  0]LightingResults: New page: Lighting Build
+[2018.09.05-22.43.37:515][  0]MapCheck: New page: Map Check
+[2018.09.05-22.43.37:515][  0]LightingResults: New page: Lighting Build
+[2018.09.05-22.43.40:838][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.09.05-22.43.40:946][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.05-22.43.40:972][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.05-22.43.41:055][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 83.205ms to complete.
+[2018.09.05-22.43.41:056][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 3.593
+[2018.09.05-22.43.41:443][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.05-22.43.41:464][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.05-22.43.41:474][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.05-22.43.41:482][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.05-22.43.41:499][  0]LogCollectionManager: Loaded 0 collections in 0.008908 seconds
+[2018.09.05-22.43.41:581][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/_Projects/RunR/Saved/Collections/' took 0.01s
+[2018.09.05-22.43.41:581][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/_Projects/RunR/Content/Developers/maloo/Collections/' took 0.01s
+[2018.09.05-22.43.41:581][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/_Projects/RunR/Content/Collections/' took 0.01s
+[2018.09.05-22.43.41:581][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.09.05-22.43.41:592][  0]LogContentBrowser: Native class hierarchy populated in 0.0100 seconds. Added 2572 classes and 603 folders.
+[2018.09.05-22.43.41:642][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.09.05-22.43.42:706][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.09.05-22.43.42:752][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.09.05-22.43.43:603][  0]LogSlate: Took 0.000280 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.09.05-22.43.43:605][  0]LogSlate: Took 0.000326 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.09.05-22.43.43:656][  0]LogSlate: Took 0.023089 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.09.05-22.43.43:997][  0]LogRenderer: Reallocating scene render targets to support 1072x452 Format 10 NumSamples 1 (Frame:1).
+[2018.09.05-22.43.44:205][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.09.05-22.43.44:205][  0]LogLoad: (Engine Initialization) Total time: 19.15 seconds
+[2018.09.05-22.43.44:205][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.09.05-22.43.44:269][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2018.09.05-22.43.44:445][  1]LogAssetRegistry: Asset discovery search completed in 11.4096 seconds
+[2018.09.05-22.43.44:447][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.09.05-22.43.44:447][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000090 seconds (updated 0 objects)
+[2018.09.05-22.43.45:797][  5]LogSlate: Took 0.018750 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.09.05-22.43.47:450][ 10]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.05-22.43.48:787][ 10]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/RunGameMode.RunGameMode
+[2018.09.05-22.43.49:983][ 10]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 116 classes and 0 folders.
+[2018.09.05-22.43.51:661][ 10]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/BP_FloorTile.BP_FloorTile
+[2018.09.05-22.43.52:066][ 10]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/ThirdPersonBP/UMG/RunHUD.RunHUD
+[2018.09.05-22.43.52:879][ 10]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/RunCharacter.RunCharacter
+[2018.09.05-22.43.53:271][ 10]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/BP_Item.BP_Item
+[2018.09.05-22.43.53:766][ 10]LogSlate: Took 0.026238 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.09.05-22.43.54:237][ 11]LogSlate: Took 0.023706 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.09.05-22.44.03:701][505]LogSlate: Window 'BP_Item' being destroyed
+[2018.09.05-22.44.06:866][681]LogAIModule: Creating AISystem for world MainRun
+[2018.09.05-22.44.06:873][681]LogAssetEditorManager: Opening Asset editor for World /Game/ThirdPersonBP/Maps/MainRun.MainRun
+[2018.09.05-22.44.06:941][681]Cmd: MAP LOAD FILE="../../../../GameDev/_Projects/RunR/Content/ThirdPersonBP/Maps/MainRun.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.05-22.44.06:941][681]LightingResults: New page: Lighting Build
+[2018.09.05-22.44.06:942][681]LoadErrors: New page: Loading map: MainRun.umap
+[2018.09.05-22.44.06:942][681]MapCheck: New page: Map Check
+[2018.09.05-22.44.06:942][681]LightingResults: New page: Lighting Build
+[2018.09.05-22.44.07:113][681]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.05-22.44.07:176][681]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.05-22.44.07:273][681]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 96.711ms to complete.
+[2018.09.05-22.44.07:273][681]LogFileHelpers: Loading map 'MainRun' took 0.334
